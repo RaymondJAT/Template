@@ -7,11 +7,7 @@ const Nav = () => {
   };
 
   return (
-    <div
-      id="banner"
-      className="abosolute w-full h-[4rem] py-4 h-20"
-      style={header}
-    >
+    <div id="banner" className="abosolute w-full py-4 h-20" style={header}>
       <nav className="align_center w-3/5 m-auto flex items-center justify-between">
         <div className="align_center">
           <h1
