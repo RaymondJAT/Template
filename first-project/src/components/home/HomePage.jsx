@@ -12,8 +12,6 @@ const HomePage = () => {
         subtitle1="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, aspernatur."
         link="/"
       />
-
-      <CoreValue />
     </div>
   );
 };

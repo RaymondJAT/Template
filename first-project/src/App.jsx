@@ -3,25 +3,22 @@ import "./App.css";
 import Nav from "./components/navbar/Nav";
 import HomePage from "./components/home/HomePage";
 import banner from "./assets/banner-bg.jpg";
+import CoreValue from "./components/home/CoreValue";
+import HomeSection from "./components/home/HomeSection";
 
 const App = () => {
   const styles = {
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),url(${banner})`,
-    backgroundSize: "cover",
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(${banner})`,
+    backgroundSize: "100% 100%",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
-    backgrounAttachment: "fixed",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "stretch",
   };
 
   return (
-    <div>
-      <main className="w-auto h-screen" style={styles}>
-        <Nav />
-        <HomePage />
-      </main>
+    <div className="w-full h-screen " style={styles}>
+      <Nav />
+      <HomePage />
+      <CoreValue />
     </div>
   );
 };
