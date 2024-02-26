@@ -4,7 +4,6 @@ import Nav from "./components/navbar/Nav";
 import HomePage from "./components/home/HomePage";
 import banner from "./assets/banner-bg.jpg";
 import CoreValue from "./components/home/CoreValue";
-import HomeSection from "./components/home/HomeSection";
 
 const App = () => {
   const styles = {

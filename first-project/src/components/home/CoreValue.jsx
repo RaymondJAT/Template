@@ -5,10 +5,11 @@ import integrity from "../../assets/agree.png";
 import efficient from "../../assets/save-time.png";
 import teamwork from "../../assets/united.png";
 import excellence from "../../assets/excellence.png";
+import AboutSection from "../about/AboutSection";
 
 const CoreValue = () => {
   return (
-    <section className="my-60 mx-0 bg-red-950">
+    <section className="my-60 mx-0 bg-white">
       {/* <h2 className="font-bold text-4xl text-center text-white uppercase mb-16">
         Core Values
       </h2> */}
@@ -40,6 +41,7 @@ const CoreValue = () => {
           subtitle="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste explicabo quisquam, deleniti, esse doloremque repellendus suscipit adipisci iure nemo dolores at pariatur ad natus. Dolores."
         />
       </div>
+      <AboutSection />
     </section>
   );
 };
