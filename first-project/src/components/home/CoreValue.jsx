@@ -8,7 +8,7 @@ import excellence from "../../assets/excellence.png";
 
 const CoreValue = () => {
   return (
-    <section className="my-48 mx-0 bg-slate-100">
+    <section className="my-60 mx-0 bg-slate-100">
       {/* <h2 className="font-bold text-4xl text-center text-white uppercase mb-16">
         Core Values
       </h2> */}

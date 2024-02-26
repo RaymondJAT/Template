@@ -15,7 +15,7 @@ const App = () => {
   };
 
   return (
-    <div className="w-full h-screen " style={styles}>
+    <div className="w-full h-full" style={styles}>
       <Nav />
       <HomePage />
       <CoreValue />
