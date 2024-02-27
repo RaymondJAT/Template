@@ -11,7 +11,7 @@ const CoreValue = () => {
     <div className="flex items-center justify-evenly mt-60">
       <CoreCard
         image={proactive}
-        bgColor="#9b2c2c"
+        bgColor="rgb(185 28 28)"
         ttlColor="white"
         txtColor="white"
         title="Core Value"
@@ -25,7 +25,7 @@ const CoreValue = () => {
       />
       <CoreCard
         image={efficient}
-        bgColor="#9b2c2c"
+        bgColor="rgb(185 28 28)"
         ttlColor="white"
         txtColor="white"
         title="Core Value"
@@ -39,7 +39,7 @@ const CoreValue = () => {
       />
       <CoreCard
         image={excellence}
-        bgColor="#9b2c2c"
+        bgColor="rgb(185 28 28)"
         ttlColor="white"
         txtColor="white"
         title="Core Value"
