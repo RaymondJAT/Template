@@ -6,6 +6,7 @@ import banner from "./assets/banner-bg.jpg";
 import CoreValue from "./components/home/CoreValue";
 import AboutSection from "./components/about/AboutSection";
 import ServiceSection from "./components/services/ServiceSection";
+import PartnerSection from "./components/about/PartnerSection";
 
 const App = () => {
   const styles = {
@@ -13,6 +14,7 @@ const App = () => {
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
+    backgroundAttachment: "fixed",
   };
 
   return (
@@ -20,9 +22,10 @@ const App = () => {
       <div className="w-full min-h-screen pb-16" style={styles}>
         <Nav />
         <HomePage />
+        <CoreValue />
       </div>
-      <CoreValue />
       <AboutSection />
+      <PartnerSection />
       <ServiceSection />
     </section>
   );

@@ -8,7 +8,7 @@ import excellence from "../../assets/excellence.png";
 
 const CoreValue = () => {
   return (
-    <div className="flex items-center justify-evenly pt-10 bg-red-900">
+    <div className="flex items-center justify-evenly mt-60">
       <CoreCard
         image={proactive}
         bgColor="#9b2c2c"

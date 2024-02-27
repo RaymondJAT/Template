@@ -3,7 +3,7 @@ import React from "react";
 const CoreCard = ({ image, title, subtitle, bgColor, txtColor, ttlColor }) => {
   return (
     <article
-      className="w-64 h-full m-5 rounded-3xl shadow-md overflow-hidden"
+      className="w-64 h-full m-5 rounded-xl shadow-md overflow-hidden"
       style={{ background: `${bgColor}` }}
     >
       <div className="flex justify-center h-40 text-center border-b border-gray-300">
