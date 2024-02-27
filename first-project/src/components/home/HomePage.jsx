@@ -1,6 +1,5 @@
 import React from "react";
 import HomeSection from "./HomeSection";
-import CoreValue from "./CoreValue";
 
 const HomePage = () => {
   return (

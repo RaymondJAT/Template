@@ -10,7 +10,7 @@ import ServiceSection from "./components/services/ServiceSection";
 const App = () => {
   const styles = {
     backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.75), rgba(45, 5, 1, 0.75)),url(${banner})`,
-    backgroundSize: "100% 100%",
+    backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
   };

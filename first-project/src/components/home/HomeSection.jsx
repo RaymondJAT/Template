@@ -19,9 +19,7 @@ const HomeSection = ({ title, title1, subtitle, subtitle1, link }) => {
           {subtitle}
           <br /> {subtitle1}
         </p>
-        {/* <a href={link} id="hero_link" className="">
-          JOIN NOW
-        </a> */}
+
         <button
           type="button"
           className="text-white w-32 py-1.5 px-0 text-center my-1 mx-2.5 rounded-md bg-transparent font-bold border-2 border-orange-100"
