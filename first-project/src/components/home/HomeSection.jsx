@@ -3,7 +3,7 @@ import React from "react";
 const HomeSection = ({ title, title1, subtitle, subtitle1, link }) => {
   return (
     <section id="hero_section">
-      <div className="align_center flex flex-col items-center justify-center h-full">
+      <div className="align_center flex-col justify-center ">
         <h1
           id="hero_title"
           className="text-7xl text-white mt-36 text-center font-bold"

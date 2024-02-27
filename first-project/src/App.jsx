@@ -17,11 +17,11 @@ const App = () => {
 
   return (
     <section>
-      <div className="w-full h-full" style={styles}>
+      <div className="w-full min-h-screen pb-16" style={styles}>
         <Nav />
         <HomePage />
-        <CoreValue />
       </div>
+      <CoreValue />
       <AboutSection />
       <ServiceSection />
     </section>
