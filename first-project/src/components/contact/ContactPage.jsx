@@ -29,11 +29,7 @@ const ContactPage = () => {
             </div>
             <div className="text flex ml-5 text-base text-red-700 flex-col font-semibold">
               <h3>Phone</h3>
-              <p className="text-left font-light text-red-700">
-                Lorem ipsum, dolor sit <br />
-                amet consectetur, adipisicing elit. <br />
-                Maiores, culpa.
-              </p>
+              <p className="text-left font-light text-red-700">0911-456-7890</p>
             </div>
           </div>
           <div className="box relative py-5 px-0 flex">
@@ -45,9 +41,7 @@ const ContactPage = () => {
             <div className="text flex ml-5 text-base text-red-700 flex-col font-semibold">
               <h3>Email</h3>
               <p className="text-left font-light text-red-700">
-                Lorem ipsum, dolor sit <br />
-                amet consectetur, adipisicing elit. <br />
-                Maiores, culpa.
+                sampleEmail@email.com
               </p>
             </div>
           </div>
