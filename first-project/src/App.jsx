@@ -7,10 +7,11 @@ import CoreValue from "./components/home/CoreValue";
 import AboutSection from "./components/about/AboutSection";
 import ServiceSection from "./components/services/ServiceSection";
 import PartnerSection from "./components/about/PartnerSection";
+import ContactPage from "./components/contact/ContactPage";
 
 const App = () => {
   const styles = {
-    backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(180, 0, 0, 0.4)),url(${hero})`,
+    backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(85, 0, 0, 0.4)),url(${hero})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
@@ -27,6 +28,7 @@ const App = () => {
       <AboutSection />
       <PartnerSection />
       <ServiceSection />
+      <ContactPage />
     </section>
   );
 };

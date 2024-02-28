@@ -3,23 +3,23 @@ import services from "../../assets/services.jpg";
 
 const ServiceSection = () => {
   const background = {
-    backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(165, 0, 0, 0.5))`,
+    backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
   };
   return (
-    <section className="bg-red-700" style={background}>
+    <section className="bg-white" style={background}>
       <div className="h-screen flex pt-0 pb-16 px-32">
-        <div className="div1 relative bg-red-700 w-2/4 flex justify-center items-center float-right">
-          <div className="w-5/6 h-5/6 bg-red-700 relative z-10">
-            <h1 className="text-4xl mb-5 pt-9 uppercase tracking-wide text-white font-bold">
+        <div className="div1 relative bg-slate-100 w-2/4 flex justify-center items-center float-right">
+          <div className="w-5/6 h-5/6 bg-slate-100 relative z-10">
+            <h1 className="text-4xl mb-5 pt-9 uppercase tracking-wide text-red-700 font-bold">
               what we offer
             </h1>
-            <h2 className="text-white text-2xl mb-5 tracking-wider capitalize font-bold">
+            <h2 className="text-red-700 text-2xl mb-5 tracking-wider capitalize font-bold">
               I'm a paragraph
             </h2>
-            <p className="text-white text-lg mb-9 capitalize tracking-wide text-justify">
+            <p className="text-red-700 text-lg mb-9 capitalize tracking-wide text-justify">
               <ul>
                 <li>Write something here</li>
                 <li>Write something here</li>
@@ -30,7 +30,7 @@ const ServiceSection = () => {
             </p>
             <button
               type="button"
-              className="bg-white text-red-800 rounded-lg text-lg font-bold py-2.5 px-7"
+              className="bg-red-700 text-white rounded-lg text-lg font-bold py-2.5 px-7"
             >
               Click Me
             </button>
