@@ -14,21 +14,17 @@ const ContactForm = () => {
               <input
                 type="text"
                 required="required"
-                className="w-full py-1 px-0 text-base my-4 mx-0 border-b-2 border-red-700 outline-none resize-none bg-transparent"
+                placeholder="First Name"
+                className="w-full py-1 px-0 text-base my-4 mx-0 border-b-2 border-red-700 outline-none resize-none bg-transparent placeholder-red-700" // Added placeholder-red-700 class
               />
-              <span className="absolute left-0 py-1 px-0 text-base my-3 mx-0 pointer-events-none transition duration-500 text-red-950">
-                First Name
-              </span>
             </div>
             <div className="inputBox relative w-1/3 mt-3">
               <input
                 type="text"
                 required="required"
-                className="w-full py-1 px-0 text-base my-4 mx-0 border-b-2 border-red-700 outline-none resize-none bg-transparent"
+                placeholder="Last Name"
+                className="w-full py-1 px-0 text-base my-4 mx-0 border-b-2 border-red-700 outline-none resize-none bg-transparent placeholder-red-700" // Added placeholder-red-700 class
               />
-              <span className="absolute left-0 py-1 px-0 text-base my-3 mx-0 pointer-events-none transition duration-500 text-red-950">
-                Last Name
-              </span>
             </div>
           </div>
         </div>
@@ -37,21 +33,17 @@ const ContactForm = () => {
           <input
             type="text"
             required="required"
-            className="w-3/4 py-1 px-0 text-base my-4 mx-0 border-b-2 border-red-700 outline-none resize-none bg-transparent"
+            placeholder="Email"
+            className="w-3/4 py-1 px-0 text-base my-4 mx-0 border-b-2 border-red-700 outline-none resize-none bg-transparent placeholder-red-700" // Added placeholder-red-700 class
           />
-          <span className="absolute left-0 py-1 px-0 text-base my-3 mx-0 pointer-events-none transition-duration-500 text-red-950">
-            Email
-          </span>
         </div>
 
         <div className="inputBox relative w-full mt-3">
           <textarea
             required="required"
-            className="bg-transparent w-3/4 py-1 px-0 text-base my-4 mx-0 border-b-2 border-red-700 outline-none resize-none"
+            placeholder="Type your Message"
+            className="bg-transparent w-3/4 py-1 px-0 text-base my-4 mx-0 border-b-2 border-red-700 outline-none resize-none placeholder-red-700" // Added placeholder-red-700 class
           ></textarea>
-          <span className="absolute left-0 py-1 px-0 text-base my-3 mx-0 pointer-events-none transition-duration-500 text-red-950">
-            Type your Message
-          </span>
         </div>
 
         <div className="inputBox relative w-full mt-3">

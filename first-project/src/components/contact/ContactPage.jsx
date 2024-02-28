@@ -3,9 +3,9 @@ import ContactForm from "./ContactForm";
 
 const ContactPage = () => {
   return (
-    <section className="relative min-h-screen py-14 px-24 flex justify-center items-center flex-col bg-slate-50">
-      <div className="container w-full flex flex-col justify-center items-center mt-8">
-        <div className="contactInfo w-6/12 flex flex-col">
+    <section className="relative min-h-screen py-14 px-24 flex justify-center items-center flex-col bg-slate-200">
+      <div className="container w-full flex flex-col md:flex-row justify-between items-center mt-8">
+        <div className="contactInfo w-full md:w-6/12 flex flex-col md:mr-8">
           <div className="box relative py-5 px-0 flex">
             <div className="icon min-w-14 h-14 bg-red-700 justify-center items-center rounded-full text-base">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">

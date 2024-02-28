@@ -3,7 +3,7 @@ import services from "../../assets/services.jpg";
 
 const ServiceSection = () => {
   const background = {
-    backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.01))`,
+    backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(100, 111, 122, 1), rgba(229, 231, 235, 1))`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
@@ -11,8 +11,8 @@ const ServiceSection = () => {
   return (
     <section className="bg-white" style={background}>
       <div className="h-screen flex pt-0 pb-16 px-32">
-        <div className="div1 relative bg-slate-100 w-2/4 flex justify-center items-center float-right">
-          <div className="w-5/6 h-5/6 bg-slate-100 relative z-10">
+        <div className="div1 relative bg-slate-200 w-2/4 flex justify-center items-center float-right">
+          <div className="w-5/6 h-5/6 bg-slate-200 relative z-10">
             <h1 className="text-4xl mb-5 pt-9 uppercase tracking-wide text-black font-bold">
               what we offer
             </h1>
