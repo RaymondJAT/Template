@@ -8,6 +8,7 @@ import AboutSection from "./components/about/AboutSection";
 import ServiceSection from "./components/services/ServiceSection";
 import PartnerSection from "./components/about/PartnerSection";
 import ContactPage from "./components/contact/ContactPage";
+import NewsPage from "./components/news/NewsPage";
 
 const App = () => {
   const styles = {
@@ -29,6 +30,7 @@ const App = () => {
       <PartnerSection />
       <ServiceSection />
       <ContactPage />
+      <NewsPage />
     </section>
   );
 };

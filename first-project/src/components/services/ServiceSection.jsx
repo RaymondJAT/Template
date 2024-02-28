@@ -3,7 +3,7 @@ import services from "../../assets/services.jpg";
 
 const ServiceSection = () => {
   const background = {
-    backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(100, 111, 122, 1), rgba(229, 231, 235, 1))`,
+    backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(100, 111, 122, 1), rgba(229, 231, 240, 1))`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",

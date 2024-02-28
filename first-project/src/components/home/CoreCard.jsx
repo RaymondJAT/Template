@@ -6,7 +6,7 @@ const CoreCard = ({ image, title, subtitle, bgColor, txtColor, ttlColor }) => {
       className="w-64 h-full m-5 rounded-xl shadow-md overflow-hidden"
       style={{ background: `${bgColor}` }}
     >
-      <div className="flex justify-center h-40 text-center border-b border-gray-300">
+      <div className="flex justify-center h-40 text-center border-b border-yellow-500">
         <img src={image} className="h-full" alt="core image" />
       </div>
 

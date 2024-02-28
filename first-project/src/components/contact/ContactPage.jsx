@@ -2,8 +2,15 @@ import React from "react";
 import ContactForm from "./ContactForm";
 
 const ContactPage = () => {
+  const background = {
+    backgroundImage: `linear-gradient(to bottom, rgba(229, 231, 240, 0.5), rgba(90, 101, 111, 0.1), rgba(1, 3, 5, 0.75))`,
+  };
+
   return (
-    <section className="relative min-h-screen py-14 px-24 flex justify-center items-center flex-col bg-slate-200">
+    <section
+      className="relative h-5/6 py-1 px-24 flex justify-center items-center flex-col bg-slate-200"
+      style={background}
+    >
       <div className="container w-full flex flex-col md:flex-row justify-between items-center mt-8">
         <div className="contactInfo w-full md:w-6/12 flex flex-col md:mr-8">
           <div className="box relative py-5 px-0 flex">
