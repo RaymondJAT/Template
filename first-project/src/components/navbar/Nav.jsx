@@ -7,9 +7,14 @@ const Nav = () => {
   };
 
   return (
-    <div id="banner" className="abosolute w-full py-4 h-20" style={header}>
-      <nav className="align_center w-10/12 m-auto flex items-center justify-between ">
-        <div className="align_center">
+    // align_center w-10/12 m-auto flex items-center justify-between
+    <nav className="">
+      <div
+        id="banner"
+        className="abosolute w-full h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4"
+        style={header}
+      >
+        <div className="align_center flex-1">
           <h1
             id="navbar_heading"
             className="align_center text-5xl font-bold w-36 cursor-pointer text-white"
@@ -28,8 +33,8 @@ const Nav = () => {
           <Link title="News" link="/news" />
           <Link title="Contacts" link="/contacts" />
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 };
 
