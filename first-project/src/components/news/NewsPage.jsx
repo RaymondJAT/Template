@@ -1,37 +1,19 @@
 import React from "react";
-import banner from "../../assets/banner-bg.jpg";
+import meet from "../../assets/News/news-one.jpg";
+import team from "../../assets/News/news-two.jpg";
+import teams from "../../assets/News/news-three.jpg";
+import NewsCard from "./NewsCard";
 
 const NewsPage = () => {
-  const styles = {
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .75)),url(${banner})`,
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
-  };
-
   return (
-    <section className="bg-transparent" style={styles}>
-      <div className="h-56 flex px-32">
-        <div className="relative bg-transparent w-1/4 flex justify-center items-center">
-          <div className="absolute top-0 bottom-0 left-0 w-0.5 bg-yellow-500"></div>
+    <section className="bg-transparent">
+      <div className="feature_products my-16">
+        <h2 className="font-bold text-4xl text-center mb-16">News & Updates</h2>
 
-          <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-yellow-500"></div>
-        </div>
-        <div className="relative bg-transparent w-1/4 flex justify-center items-center">
-          <div className="absolute top-0 bottom-0 left-0 w-0.5 bg-yellow-500"></div>
-
-          <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-yellow-500"></div>
-        </div>
-        <div className="relative bg-transparent w-1/4 flex justify-center items-center">
-          <div className="absolute top-0 bottom-0 left-0 w-0.5 bg-yellow-500"></div>
-
-          <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-yellow-500"></div>
-        </div>
-        <div className="relative bg-transparent w-1/4 flex justify-center items-center">
-          <div className="absolute top-0 bottom-0 right-0 w-0.5 bg-yellow-500"></div>
-          <div className="absolute top-0 bottom-0 left-0 w-0.5 bg-yellow-500"></div>
-
-          <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-yellow-500"></div>
+        <div className="align_center featured_products_list justify-evenly mb-16">
+          <NewsCard image={meet} seen="120" />
+          <NewsCard image={team} />
+          <NewsCard image={teams} />
         </div>
       </div>
     </section>

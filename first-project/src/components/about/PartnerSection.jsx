@@ -3,7 +3,7 @@ import banner from "../../assets/banner-bg.jpg";
 
 const PartnerSection = () => {
   const styles = {
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .75)),url(${banner})`,
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)),url(${banner})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",

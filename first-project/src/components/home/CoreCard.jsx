@@ -2,7 +2,7 @@ import React from "react";
 
 const CoreCard = ({ image, title, subtitle, bgColor, txtColor, ttlColor }) => {
   return (
-    <article
+    <div
       className="w-64 h-full m-5 rounded-xl shadow-md overflow-hidden"
       style={{ background: `${bgColor}` }}
     >
@@ -24,7 +24,7 @@ const CoreCard = ({ image, title, subtitle, bgColor, txtColor, ttlColor }) => {
           {subtitle}
         </p>
       </div>
-    </article>
+    </div>
   );
 };
 
