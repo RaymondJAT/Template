@@ -12,7 +12,7 @@ import NewsPage from "./components/news/NewsPage";
 
 const App = () => {
   const styles = {
-    backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(85, 0, 0, 0.4)),url(${hero})`,
+    backgroundImage: `linear-gradient(to bottom, rgba(140, 150, 160, 0.8), rgba(6, 2, 5, 1)),url(${hero})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",

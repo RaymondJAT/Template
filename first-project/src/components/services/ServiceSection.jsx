@@ -3,16 +3,13 @@ import services from "../../assets/services.jpg";
 
 const ServiceSection = () => {
   const background = {
-    backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 1))`,
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
+    background: "#7a1818",
   };
   return (
-    <section className="bg-white" style={background}>
-      <div className="h-screen flex pt-0 pb-16 px-32">
-        <div className="div1 relative bg-white w-2/4 flex justify-center items-center float-right">
-          <div className="w-5/6 h-5/6 bg-white relative z-10">
+    <section className="bg-slate-300" style={background}>
+      <div className="h-screen flex pt-0 pb-16 px-28">
+        <div className="div1 relative bg-stone-300 w-2/4 flex justify-center items-center float-right">
+          <div className="w-5/6 h-5/6 bg-stone-300 relative z-10">
             <h1 className="text-4xl mb-5 pt-9 uppercase tracking-wide text-black font-bold">
               what we offer
             </h1>
@@ -35,19 +32,19 @@ const ServiceSection = () => {
               Click Me
             </button>
           </div>
-          <div className="absolute top-0 bottom-0 left-0 w-0.5 bg-yellow-500"></div>
-          <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-yellow-500"></div>
+          <div className="absolute top-0 bottom-0 left-0 w-1 bg-white"></div>
+          <div className="absolute bottom-0 left-0 right-0 h-1 bg-white"></div>
         </div>
-        <div className="div2 relative bg-red-700 w-2/4 flex justify-center items-center float-left">
+        <div className="div2 relative bg-white w-2/4 flex justify-center items-center float-left">
           <img
             src={services}
             className="w-full h-full object-cover "
             alt="our service"
           />
-          <div className="absolute top-0 bottom-0 left-0 w-0.5 bg-yellow-500"></div>
-          <div className="w-lvh h-lvh bg-red-700relative z-10 overflow-hidden"></div>
-          <div className="absolute top-0 bottom-0 right-0 w-0.5 bg-yellow-500"></div>
-          <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-yellow-500"></div>
+          <div className="absolute top-0 bottom-0 left-0 w-1 bg-white"></div>
+          <div className="w-lvh h-lvh bg-whiterelative z-10 overflow-hidden"></div>
+          <div className="absolute top-0 bottom-0 right-0 w-1 bg-white"></div>
+          <div className="absolute bottom-0 left-0 right-0 h-1 bg-white"></div>
         </div>
       </div>
     </section>

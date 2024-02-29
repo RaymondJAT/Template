@@ -2,32 +2,25 @@ import React from "react";
 import about from "../../assets/about.jpg";
 
 const AboutSection = () => {
-  const background = {
-    backgroundImage: `linear-gradient(to bottom, rgba(200, 0, 0, 0.50), rgba(0, 0, 0, 1))`,
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
+  const bg = {
+    background: "#7a1818",
   };
-
   return (
-    <section className="bg-red-700" style={background}>
-      <div className="h-screen flex pt-16 px-32">
-        <div
-          className="div1 relative bg-red-700 w-2/4 flex justify-center items-center float-right"
-          style={background}
-        >
+    <section className="" style={bg}>
+      <div className="h-screen flex pt-16 px-28">
+        <div className="div1 relative bg-white w-2/4 flex justify-center items-center float-right">
           <img
             src={about}
             className="w-full h-full object-cover"
             alt="our service"
           />
-          <div className="absolute top-0 bottom-0 right-0 w-0.5 bg-yellow-500"></div>
-          <div className="absolute top-0 bottom-0 left-0 w-0.5 bg-yellow-500"></div>
-          <div className="absolute top-0 left-0 right-0 h-0.5 bg-yellow-500"></div>
-          <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-yellow-500"></div>
+          {/* <div className="absolute top-0 bottom-0 right-0 w-1 bg-white"></div> */}
+          <div className="absolute top-0 bottom-0 left-0 w-1 bg-white"></div>
+          <div className="absolute top-0 left-0 right-0 h-1 bg-white"></div>
+          <div className="absolute bottom-0 left-0 right-0 h-1 bg-white"></div>
         </div>
-        <div className="div2 relative bg-white w-2/4 flex justify-center items-center float-left">
-          <div className="w-5/6 h-5/6 bg-white relative z-10 flex flex-col justify-center">
+        <div className="div2 relative bg-stone-300 w-2/4 flex justify-center items-center float-left">
+          <div className="w-5/6 h-5/6 bg-stone-300 relative z-10 flex flex-col justify-center">
             <h1 className="text-4xl mb-5 uppercase tracking-wide text-black font-bold text-left">
               about us
             </h1>
@@ -54,9 +47,10 @@ const AboutSection = () => {
             </button>
           </div>
 
-          <div className="absolute top-0 bottom-0 right-0 w-0.5 bg-yellow-500"></div>
-          <div className="absolute top-0 left-0 right-0 h-0.5 bg-yellow-500"></div>
-          <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-yellow-500"></div>
+          <div className="absolute top-0 bottom-0 left-0 w-1 bg-white"></div>
+          <div className="absolute top-0 bottom-0 right-0 w-1 bg-white"></div>
+          <div className="absolute top-0 left-0 right-0 h-1 bg-white"></div>
+          <div className="absolute bottom-0 left-0 right-0 h-1 bg-white"></div>
         </div>
       </div>
     </section>
