@@ -19,7 +19,7 @@ const NewsCard = ({ image, iconLeft, title, subtitle, like }) => {
         </p>
         <div>
           <div className="align_left my-7 flex flex-col items-end">
-            <p className="product_review_count text-base w-full text-gray-500 border-b-2 border-gray-200 mb-2"></p>
+            <p className="text-base w-full text-gray-500 border-b-2 border-gray-200 mb-2"></p>
             <div className="flex items-center">
               <p className="align_center h-8 py-1 px-2 font-semibold text-black mr-36">
                 <a href="#">

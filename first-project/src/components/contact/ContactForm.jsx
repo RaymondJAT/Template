@@ -50,7 +50,7 @@ const ContactForm = () => {
           <input
             type="submit"
             value="Send"
-            className="py-1 px-0 w-3/4 text-base my-4 mx-0 outline-none resize-none bg-white rounded-lg font-bold text-red-700"
+            className="py-1 px-0 w-3/4 cursor-pointer text-base my-4 mx-0 outline-none resize-none bg-white rounded-lg font-bold text-red-700"
           />
         </div>
       </form>

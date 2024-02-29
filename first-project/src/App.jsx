@@ -6,13 +6,13 @@ import hero from "./assets/hero-banner.jpg";
 import CoreValue from "./components/home/CoreValue";
 import AboutSection from "./components/about/AboutSection";
 import ServiceSection from "./components/services/ServiceSection";
-import PartnerSection from "./components/about/PartnerSection";
+import PartnerSection from "./components/about/About";
 import ContactPage from "./components/contact/ContactPage";
 import NewsPage from "./components/news/NewsPage";
 
 const App = () => {
   const styles = {
-    backgroundImage: `linear-gradient(to bottom, rgba(140, 150, 160, 0.8), rgba(6, 2, 5, 1)),url(${hero})`,
+    backgroundImage: `linear-gradient(rgba(100, 110, 100, 0.7), rgba(40, 0, 0, 1)),url(${hero})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
