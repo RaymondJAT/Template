@@ -7,10 +7,7 @@ const ContactPage = () => {
   };
 
   return (
-    <section
-      className="relative h-5/6 py-1 px-24 flex justify-center items-center flex-col bg-slate-200"
-      style={background}
-    >
+    <section className="relative h-5/6 pt-32 px-24 flex justify-center items-center flex-col bg-white">
       <div className="container w-full flex flex-col md:flex-row justify-between items-center ml-32 mt-8">
         <div className="contactInfo w-full md:w-6/12 flex flex-col md:mr-8">
           <div className="box relative py-10 px-0 flex">

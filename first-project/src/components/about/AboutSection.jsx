@@ -26,8 +26,8 @@ const AboutSection = () => {
           <div className="absolute top-0 left-0 right-0 h-0.5 bg-yellow-500"></div>
           <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-yellow-500"></div>
         </div>
-        <div className="div2 relative bg-slate-200 w-2/4 flex justify-center items-center float-left">
-          <div className="w-5/6 h-5/6 bg-slate-200 relative z-10 flex flex-col justify-center">
+        <div className="div2 relative bg-white w-2/4 flex justify-center items-center float-left">
+          <div className="w-5/6 h-5/6 bg-white relative z-10 flex flex-col justify-center">
             <h1 className="text-4xl mb-5 uppercase tracking-wide text-black font-bold text-left">
               about us
             </h1>
@@ -47,7 +47,7 @@ const AboutSection = () => {
             </p>
             <button
               type="button"
-              className="bg-slate-100 text-black rounded-lg text-lg font-bold py-2.5 px-4 border-2 border-black border-solid"
+              className="bg-white text-black rounded-lg text-lg font-bold py-2.5 px-4 border-2 border-black border-solid"
               style={{ width: "120px" }}
             >
               Click Me

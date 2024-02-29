@@ -3,7 +3,7 @@ import services from "../../assets/services.jpg";
 
 const ServiceSection = () => {
   const background = {
-    backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(245, 245, 245, 1))`,
+    backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 1))`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
@@ -11,8 +11,8 @@ const ServiceSection = () => {
   return (
     <section className="bg-white" style={background}>
       <div className="h-screen flex pt-0 pb-16 px-32">
-        <div className="div1 relative bg-slate-200 w-2/4 flex justify-center items-center float-right">
-          <div className="w-5/6 h-5/6 bg-slate-200 relative z-10">
+        <div className="div1 relative bg-white w-2/4 flex justify-center items-center float-right">
+          <div className="w-5/6 h-5/6 bg-white relative z-10">
             <h1 className="text-4xl mb-5 pt-9 uppercase tracking-wide text-black font-bold">
               what we offer
             </h1>
@@ -30,7 +30,7 @@ const ServiceSection = () => {
             </p>
             <button
               type="button"
-              className="bg-slate-100 text-black rounded-lg text-lg font-bold py-2.5 px-7 border-2 border-black border-solid"
+              className="bg-white text-black rounded-lg text-lg font-bold py-2.5 px-7 border-2 border-black border-solid"
             >
               Click Me
             </button>
