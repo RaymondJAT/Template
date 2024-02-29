@@ -29,8 +29,8 @@ const App = () => {
       <AboutSection />
       <PartnerSection />
       <ServiceSection />
-      <ContactPage />
       <NewsPage />
+      <ContactPage />
     </section>
   );
 };
