@@ -12,7 +12,7 @@ import NewsPage from "./components/news/NewsPage";
 
 const App = () => {
   const styles = {
-    backgroundImage: `linear-gradient(rgba(100, 110, 100, 0.7), rgba(40, 0, 0, 1)),url(${hero})`,
+    backgroundImage: `linear-gradient(rgba(10, 0, 0, 0.4), rgba(10, 0, 0, 0.8)),url(${hero})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
@@ -24,7 +24,7 @@ const App = () => {
       <div className="w-full min-h-screen pb-16" style={styles}>
         <Nav />
         <HomePage />
-        <CoreValue />
+        {/* <CoreValue /> */}
       </div>
       <AboutSection />
       <PartnerSection />
