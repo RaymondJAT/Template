@@ -22,7 +22,7 @@ const HomeSection = ({ title, title1, subtitle, subtitle1, link }) => {
 
         <button
           type="button"
-          className="text-white w-32 py-1.5 px-0 text-center my-1 mx-2.5 rounded-md bg-transparent font-bold border-2 border-orange-100 uppercase"
+          className="text-white w-32 py-1.5 px-0 text-center my-1 mx-2.5 rounded-md font-bold uppercase bg-red-700"
         >
           <a href={link}>click me</a>
         </button>

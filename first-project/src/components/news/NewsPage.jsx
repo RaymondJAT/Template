@@ -22,7 +22,7 @@ const NewsPage = () => {
         <div className="w-64 text-center mx-auto mt-5">
           <button
             type="button"
-            className="text-black w-40 py-2 justify-center rounded-md bg-white font-bold border-2 border-black uppercase"
+            className="text-white w-40 py-2 justify-center rounded-md bg-stone-950 font-bold uppercase"
           >
             click me
           </button>
