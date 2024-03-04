@@ -4,11 +4,7 @@ import bg from "../../assets/partner-bg.jpg";
 const ProductSection = () => {
   return (
     <div>
-      <img
-        src={bg}
-        alt="showtime img"
-        // style={{ width: "100%", height: "550px" }}
-      />
+      <img src={bg} alt="showtime img" />
     </div>
   );
 };
