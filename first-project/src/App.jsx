@@ -27,7 +27,7 @@ const App = () => {
         {/* <CoreValue /> */}
       </div>
       <AboutSection />
-      <PartnerSection />
+      {/* <PartnerSection /> */}
       <ServiceSection />
       <NewsPage />
       <ContactPage />

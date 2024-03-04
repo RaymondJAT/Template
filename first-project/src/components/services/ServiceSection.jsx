@@ -6,9 +6,9 @@ const ServiceSection = () => {
     background: "#7a1818",
   };
   return (
-    <section className="bg-slate-300" style={background}>
+    <section className="bg-red-700">
       <div className="h-screen flex pt-0 pb-16 px-28">
-        <div className="div1 relative bg-stone-300 w-2/4 flex justify-center items-center float-right">
+        {/* <div className="div1 relative bg-stone-300 w-2/4 flex justify-center items-center float-right">
           <div className="w-4/5 h-5/6 bg-stone-300 relative z-10">
             <h1 className="text-4xl mb-5 pt-9 uppercase tracking-wide text-black font-bold">
               what we offer
@@ -45,7 +45,7 @@ const ServiceSection = () => {
           <div className="w-lvh h-lvh bg-whiterelative z-10 overflow-hidden"></div>
           <div className="absolute top-0 bottom-0 right-0 w-1 bg-white"></div>
           <div className="absolute bottom-0 left-0 right-0 h-1 bg-white"></div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

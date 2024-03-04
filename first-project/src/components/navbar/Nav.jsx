@@ -1,40 +1,54 @@
-import React from "react";
-import Link from "./Link";
+import React, { useState } from "react";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const Nav = () => {
+  const [nav, setNav] = useState(false);
+
+  const handleNav = () => {
+    setNav(!nav);
+  };
+
   const header = {
     background: `rgba(0, 0, 0, 0.9)`,
   };
-
   return (
-    // align_center w-10/12 m-auto flex items-center justify-between
-    <nav className="">
+    <div
+      className="absolute flex justify-between items-center h-10vh w-full mx-auto z-50 px-4 text-white"
+      style={header}
+    >
+      <h1 className="w-full text-4xl font-bold text-white cursor-pointer">
+        LOGO
+      </h1>
+      <ul className="hidden md:flex cursor-pointer">
+        <li className="p-7">Home</li>
+        <li className="p-7">About</li>
+        <li className="p-7">Services</li>
+        <li className="p-7">Products</li>
+        <li className="p-7">News</li>
+        <li className="p-7">Contact</li>
+      </ul>
       <div
-        id="banner"
-        className="abosolute w-full h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4"
-        style={header}
+        onClick={handleNav}
+        className="block md:hidden h-20 pt-7 cursor-pointer"
       >
-        <div className="align_center flex-1">
-          <h1
-            id="navbar_heading"
-            className="align_center text-5xl font-bold w-36 cursor-pointer text-white"
-          >
-            LOGO
-          </h1>
-        </div>
-        <div
-          id="navbar_links"
-          className="align_center list-none inline-block my-0 mx-2.5 relative text-xs font-bold text-white"
-        >
-          <Link title="Home" link="/" />
-          <Link title="About" link="/about" />
-          <Link title="Services" link="/services" />
-          <Link title="Products" link="/products" />
-          <Link title="News" link="/news" />
-          <Link title="Contacts" link="/contacts" />
-        </div>
+        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
-    </nav>
+      <ul
+        className={
+          nav
+            ? "fixed left-0 top-0 w-[70%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
+            : "ease-in-out duration-500 fixed left-[-100%]"
+        }
+      >
+        <h1 className="w-full text-4xl font-bold text-white m-4">LOGO</h1>
+        <li className="p-4 border-b border-gray-600">Home</li>
+        <li className="p-4 border-b border-gray-600">About</li>
+        <li className="p-4 border-b border-gray-600">Services</li>
+        <li className="p-4 border-b border-gray-600">Products</li>
+        <li className="p-4 border-b border-gray-600">News</li>
+        <li className="p-4">Contact</li>
+      </ul>
+    </div>
   );
 };
 
