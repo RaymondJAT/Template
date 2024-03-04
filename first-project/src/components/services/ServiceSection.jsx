@@ -6,8 +6,8 @@ const ServiceSection = () => {
     background: "#7a1818",
   };
   return (
-    <section className="bg-red-700">
-      <div className="h-screen flex pt-0 pb-16 px-28">
+    <section className="bg-red-700" style={{ height: "580px" }}>
+      <div className=" flex px-28">
         {/* <div className="div1 relative bg-stone-300 w-2/4 flex justify-center items-center float-right">
           <div className="w-4/5 h-5/6 bg-stone-300 relative z-10">
             <h1 className="text-4xl mb-5 pt-9 uppercase tracking-wide text-black font-bold">
