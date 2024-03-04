@@ -13,7 +13,7 @@ import ProductSection from "./components/products/ProductSection";
 
 const App = () => {
   const styles = {
-    backgroundImage: `linear-gradient(rgba(10, 0, 0, 0.4), rgba(10, 0, 0, 0.8)),url(${hero})`,
+    backgroundImage: `linear-gradient(rgba(10, 0, 0, 0.6), rgba(10, 0, 0, 0.9)),url(${hero})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",

@@ -11,8 +11,8 @@ const ContactPage = () => {
 
   return (
     <section
-      className="relative h-5/6 py-16 px-24 flex justify-center items-center flex-col bg-white"
-      style={background}
+      className="relative py-0 px-24 flex justify-center items-center flex-col bg-stone-950"
+      // style={background}
     >
       <div className="container w-full flex flex-col md:flex-row justify-between items-center ml-32 mt-8">
         <div className="contactInfo w-full md:w-6/12 flex flex-col md:mr-8">

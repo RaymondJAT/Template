@@ -16,10 +16,10 @@ const Nav = () => {
       className="absolute flex justify-between items-center h-10vh w-full mx-auto z-50 px-4 text-white"
       style={header}
     >
-      <h1 className="w-full text-4xl font-bold text-white cursor-pointer">
+      <h1 className="w-full mx-5 text-4xl font-bold text-white cursor-pointer">
         LOGO
       </h1>
-      <ul className="hidden md:flex cursor-pointer">
+      <ul className="hidden md:flex cursor-pointer mx-5">
         <li className="p-7">Home</li>
         <li className="p-7">About</li>
         <li className="p-7">Services</li>
@@ -29,7 +29,7 @@ const Nav = () => {
       </ul>
       <div
         onClick={handleNav}
-        className="block md:hidden h-20 pt-7 cursor-pointer"
+        className="block md:hidden h-20 pt-7 mx-5 cursor-pointer"
       >
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
