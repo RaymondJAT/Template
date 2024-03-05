@@ -1,10 +1,10 @@
 import React from "react";
-import ceo from "../../assets/about.jpg";
-import bgceo from "../../assets/hero.jpg";
+import ceo from "../../assets/5L/CEO.png";
+import bgceo from "../../assets/5L/hero.jpg";
 
 const AboutSection = ({ children }) => {
-  const header = {
-    backgroundImage: `rgba(0, 0, 0, 0.9)`,
+  const styles = {
+    backgroundImage: `linear-gradient(rgba(10, 0, 0, 0.7), rgba(10, 0, 0, 0.9)),url(${bgceo})`,
   };
 
   const bg = {
@@ -83,15 +83,13 @@ const AboutSection = ({ children }) => {
               alt="our service"
             />
 
-            <img
-              src={bgceo}
-              alt=""
+            <div
               className="h-96 w-2/3 absolute bottom-32 right-1"
-              style={header}
+              style={styles}
             />
 
             {/* right div border */}
-            <div className="absolute w-2/3 h-5/6 top-14 right-[40px] z-20">
+            <div className="absolute w-2/3 h-5/6 top-14 right-[50px] z-20">
               <div
                 className="absolute top-0 bottom-0 left-0 w-2"
                 style={border}
