@@ -1,18 +1,18 @@
 import React from "react";
 
-const NewsCard = ({ image, iconLeft, title, subtitle, like }) => {
+const ProductCard = ({ image, iconLeft, like }) => {
   return (
-    <div className="product_card w-64 h-80 shadow-md bg-white overflow-hidden flex-col">
-      <div className="product_image flex justify-center h-40 text-center border-b border-gray-300">
+    <div className="product_card w-64 h-40 shadow-md bg-white overflow-hidden flex-col">
+      <div className="product_image flex justify-center h-40 text-center">
         <a href="product/1">
           <img
             src={image}
             className="h-full w-screen bg-contain"
-            alt="article image"
+            alt="product image"
           />
         </a>
       </div>
-      <div className="product_details py-5 px-5">
+      {/* <div className="product_details py-5 px-5">
         <h3 className="product_price text-21 font-bold">Article Title</h3>
         <p className="product_title text-sm mt-1 flex">
           Lorem ipsum dolor sit amet consectetur adipisicing.
@@ -34,9 +34,9 @@ const NewsCard = ({ image, iconLeft, title, subtitle, like }) => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
 
-export default NewsCard;
+export default ProductCard;

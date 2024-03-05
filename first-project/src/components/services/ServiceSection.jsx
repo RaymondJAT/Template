@@ -108,14 +108,12 @@ const ServiceSection = ({ children }) => {
               </div>
               <button
                 type="button"
-                className="text-black rounded-md text-sm font-bold py-2.5 px-4 mx-auto border-2 border-black"
+                className="text-black rounded-md text-sm font-bold py-2.5 px-4 mx-auto bg-white w-64"
                 style={{
-                  width: "220px",
-                  background: "#E7E5E4",
                   display: "block",
                 }}
               >
-                Click me
+                Find out more about our services
               </button>
             </div>
 
