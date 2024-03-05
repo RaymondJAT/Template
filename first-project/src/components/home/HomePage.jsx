@@ -5,10 +5,10 @@ const HomePage = () => {
   return (
     <div>
       <HomeSection
-        title="welcome"
-        title1="Something"
-        subtitle="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam sapiente doloremque mollitia voluptas aliquam."
-        subtitle1="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, aspernatur."
+        title="finding solutions"
+        title1="at its best"
+        subtitle="Embark on a journey of limitless innovation and excellence with us."
+        subtitle1="Explore our offerings and transform your experience."
         link="/"
       />
     </div>
