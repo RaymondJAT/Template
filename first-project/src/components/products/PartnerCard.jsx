@@ -1,8 +1,8 @@
 import React from "react";
 
-const ProductCard = ({ image }) => {
+const PartnerCard = ({ image }) => {
   return (
-    <div className="product_card w-64 h-48 shadow-md bg-transparent overflow-hidden flex-col">
+    <div className="product_card w-80 h-48 shadow-md bg-transparent overflow-hidden flex-col">
       <div className="product_image flex justify-center h-48 text-center">
         <a href="product/1">
           <img
@@ -17,4 +17,4 @@ const ProductCard = ({ image }) => {
   );
 };
 
-export default ProductCard;
+export default PartnerCard;

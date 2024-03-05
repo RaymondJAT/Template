@@ -5,6 +5,10 @@ import ups from "../../assets/Products/UPS.png";
 import ups2 from "../../assets/Products/UPS2.png";
 import sm from "../../assets/Products/small.png";
 import ref from "../../assets/Products/ref.png";
+import dunkin from "../../assets/Partner/Dunkin.jpg";
+import wats from "../../assets/Partner/watsons.jpg";
+import sevEl from "../../assets/Partner/seveneleven.png";
+import PartnerCard from "./PartnerCard";
 
 const ProductSection = () => {
   const red = {
@@ -17,7 +21,7 @@ const ProductSection = () => {
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     backgroundAttachment: "fixed",
-    height: "600px",
+    height: "680px",
   };
 
   return (
@@ -28,7 +32,7 @@ const ProductSection = () => {
             Our Products
           </h2>
         </div>
-        <div className="align_center featured_products_list justify-evenly mb-16">
+        <div className="align_center featured_products_list justify-evenly mx-16 mb-16">
           <ProductCard image={ups} />
           <ProductCard image={sm} />
           <ProductCard image={ref} />
@@ -43,6 +47,17 @@ const ProductSection = () => {
           >
             Learn more about our products
           </button>
+        </div>
+
+        <div className="pt-24 flex flex-col">
+          <h2 className="font-bold text-4xl text-center text-white">
+            Our Partners
+          </h2>
+        </div>
+        <div className="align_center pt-12 featured_products_list justify-evenly mb-16">
+          <PartnerCard image={dunkin} />
+          <PartnerCard image={wats} />
+          <PartnerCard image={sevEl} />
         </div>
       </div>
     </section>
