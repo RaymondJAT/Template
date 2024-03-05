@@ -3,10 +3,10 @@ import services from "../../assets/services.jpg";
 
 const ServiceSection = () => {
   const background = {
-    background: "#7a1818",
+    background: "#FF0000",
   };
   return (
-    <section className="bg-red-700" style={{ height: "580px" }}>
+    <section style={{ background: "#FF0000", height: "580px" }}>
       <div className=" flex px-28">
         {/* <div className="div1 relative bg-stone-300 w-2/4 flex justify-center items-center float-right">
           <div className="w-4/5 h-5/6 bg-stone-300 relative z-10">

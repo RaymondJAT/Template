@@ -20,7 +20,7 @@ const Nav = () => {
       <h1 className="w-full mx-5 cursor-pointer">
         <img src={logo} alt="company logo" className="h-24 flex" />
       </h1>
-      <ul className="hidden md:flex cursor-pointer mx-5">
+      <ul className="hidden md:flex cursor-pointer mx-5 uppercase text-sm">
         <li className="p-7">Home</li>
         <li className="p-7">About</li>
         <li className="p-7">Services</li>

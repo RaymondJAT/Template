@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Nav from "./components/navbar/Nav";
 import HomePage from "./components/home/HomePage";
-import hero from "./assets/hero-banner.jpg";
+import hero from "./assets/hero.jpg";
 import CoreValue from "./components/home/CoreValue";
 import AboutSection from "./components/about/AboutSection";
 import ServiceSection from "./components/services/ServiceSection";
@@ -13,7 +13,7 @@ import ProductSection from "./components/products/ProductSection";
 
 const App = () => {
   const styles = {
-    backgroundImage: `linear-gradient(rgba(10, 0, 0, 0.6), rgba(10, 0, 0, 0.9)),url(${hero})`,
+    backgroundImage: `linear-gradient(rgba(10, 0, 0, 0.7), rgba(10, 0, 0, 0.9)),url(${hero})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
