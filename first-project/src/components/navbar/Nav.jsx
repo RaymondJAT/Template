@@ -14,19 +14,23 @@ const Nav = () => {
   };
   return (
     <div
-      className="absolute flex justify-between items-center h-10vh w-full mx-auto z-50 px-4 text-white"
+      className="absolute flex justify-between items-center h-24 w-full mx-auto z-50 px-4 text-white"
       style={header}
     >
       <h1 className="w-full mx-7 cursor-pointer">
         <img src={logo} alt="company logo" className="h-12 flex" />
       </h1>
       <ul className="hidden md:flex cursor-pointer mx-5 uppercase text-sm">
-        <li className="p-7">Home</li>
-        <li className="p-7">About</li>
-        <li className="p-7">Services</li>
-        <li className="p-7">Products</li>
-        <li className="p-7">News</li>
-        <li className="p-7">Contact</li>
+        <li className="p-7 hover:text-red-500 ease-in duration-300">Home</li>
+        <li className="p-7 hover:text-red-500 ease-in duration-300">About</li>
+        <li className="p-7 hover:text-red-500 ease-in duration-300">
+          Services
+        </li>
+        <li className="p-7 hover:text-red-500 ease-in duration-300">
+          Products
+        </li>
+        <li className="p-7 hover:text-red-500 ease-in duration-300">News</li>
+        <li className="p-7 hover:text-red-500 ease-in duration-300">Contact</li>
       </ul>
       <div
         onClick={handleNav}
@@ -35,21 +39,21 @@ const Nav = () => {
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
       <ul
-        className={
-          nav
-            ? "fixed left-0 top-0 w-[70%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
-            : "ease-in-out duration-500 fixed left-[-100%]"
-        }
+        className={`absolute top-24 left-0 w-full bg-black bg-opacity-90 transition-opacity ${
+          nav ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full"
+        } uppercase cursor-pointer text-sm py-5`}
+        style={{ display: nav || nav === undefined ? "block" : "none" }}
       >
-        <h1 className="w-full text-4xl font-bold text-white m-4">
-          <img src={logo} alt="company logo" className="h-12 flex" />
-        </h1>
-        <li className="p-4 border-b border-gray-600">Home</li>
-        <li className="p-4 border-b border-gray-600">About</li>
-        <li className="p-4 border-b border-gray-600">Services</li>
-        <li className="p-4 border-b border-gray-600">Products</li>
-        <li className="p-4 border-b border-gray-600">News</li>
-        <li className="p-4">Contact</li>
+        <li className="p-4 hover:text-red-500 ease-in duration-300">Home</li>
+        <li className="p-4 hover:text-red-500 ease-in duration-300">About</li>
+        <li className="p-4 hover:text-red-500 ease-in duration-300">
+          Services
+        </li>
+        <li className="p-4 hover:text-red-500 ease-in duration-300">
+          Products
+        </li>
+        <li className="p-4 hover:text-red-500 ease-in duration-300">News</li>
+        <li className="p-4 hover:text-red-500 ease-in duration-300">Contact</li>
       </ul>
     </div>
   );
