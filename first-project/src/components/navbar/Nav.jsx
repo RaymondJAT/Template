@@ -8,15 +8,15 @@ const Nav = () => {
   const handleNav = () => {
     setNav(!nav);
   };
-
+  // Xdropdown
   const closeNav = () => {
-    setNav(false); // Set nav to false to close the dropdown menu
+    setNav(false);
   };
 
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth > 768 && nav) {
-        setNav(false); // Close the dropdown menu if the screen size returns to normal
+        setNav(false);
       }
     };
 
@@ -36,8 +36,12 @@ const Nav = () => {
       className="absolute flex justify-between items-center h-24 w-full mx-auto z-50 px-4 text-white"
       style={header}
     >
-      <h1 className="w-full mx-7 cursor-pointer">
-        <img src={logo} alt="company logo" className="h-12 flex" />
+      <h1 className="mx-7 cursor-pointer ">
+        <img
+          src={logo}
+          alt="company logo"
+          className="h-12 flex flex-col justify-between items-center max-w-[1240px]"
+        />
       </h1>
       <ul className="hidden md:flex cursor-pointer mx-5 uppercase text-sm">
         <li
@@ -86,7 +90,7 @@ const Nav = () => {
       <ul
         className={`absolute top-24 left-0 w-full bg-black bg-opacity-90 transition-opacity ${
           nav ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full"
-        } uppercase cursor-pointer text-sm py-5`}
+        } uppercase cursor-pointer text-sm py-5 text-center`}
         style={{ display: nav || nav === undefined ? "block" : "none" }}
       >
         <li
