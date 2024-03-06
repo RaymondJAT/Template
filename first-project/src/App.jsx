@@ -33,10 +33,10 @@ const App = () => {
           </Routes>
         </main>
         <HomePage />
-        <CoreValue />
+        {/* <CoreValue /> */}
       </div>
       <AboutSection />
-      <PartnerSection />
+      {/* <PartnerSection /> */}
       <ServiceSection />
       <ProductSection />
       <NewsPage />
