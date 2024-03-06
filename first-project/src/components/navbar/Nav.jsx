@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import logo from "../../assets/5L/5L_logo-Red.png";
 
@@ -9,9 +9,28 @@ const Nav = () => {
     setNav(!nav);
   };
 
+  const closeNav = () => {
+    setNav(false); // Set nav to false to close the dropdown menu
+  };
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 768 && nav) {
+        setNav(false); // Close the dropdown menu if the screen size returns to normal
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [nav]);
+
   const header = {
     background: `rgba(0, 0, 0, 0.9)`,
   };
+
   return (
     <div
       className="absolute flex justify-between items-center h-24 w-full mx-auto z-50 px-4 text-white"
@@ -21,16 +40,42 @@ const Nav = () => {
         <img src={logo} alt="company logo" className="h-12 flex" />
       </h1>
       <ul className="hidden md:flex cursor-pointer mx-5 uppercase text-sm">
-        <li className="p-7 hover:text-red-500 ease-in duration-300">Home</li>
-        <li className="p-7 hover:text-red-500 ease-in duration-300">About</li>
-        <li className="p-7 hover:text-red-500 ease-in duration-300">
+        <li
+          className="p-7 hover:text-red-500 ease-in duration-300"
+          onClick={closeNav}
+        >
+          Home
+        </li>
+        <li
+          className="p-7 hover:text-red-500 ease-in duration-300"
+          onClick={closeNav}
+        >
+          About
+        </li>
+        <li
+          className="p-7 hover:text-red-500 ease-in duration-300"
+          onClick={closeNav}
+        >
           Services
         </li>
-        <li className="p-7 hover:text-red-500 ease-in duration-300">
+        <li
+          className="p-7 hover:text-red-500 ease-in duration-300"
+          onClick={closeNav}
+        >
           Products
         </li>
-        <li className="p-7 hover:text-red-500 ease-in duration-300">News</li>
-        <li className="p-7 hover:text-red-500 ease-in duration-300">Contact</li>
+        <li
+          className="p-7 hover:text-red-500 ease-in duration-300"
+          onClick={closeNav}
+        >
+          News
+        </li>
+        <li
+          className="p-7 hover:text-red-500 ease-in duration-300"
+          onClick={closeNav}
+        >
+          Contact
+        </li>
       </ul>
       <div
         onClick={handleNav}
@@ -44,16 +89,42 @@ const Nav = () => {
         } uppercase cursor-pointer text-sm py-5`}
         style={{ display: nav || nav === undefined ? "block" : "none" }}
       >
-        <li className="p-4 hover:text-red-500 ease-in duration-300">Home</li>
-        <li className="p-4 hover:text-red-500 ease-in duration-300">About</li>
-        <li className="p-4 hover:text-red-500 ease-in duration-300">
+        <li
+          className="p-4 hover:text-red-500 ease-in duration-300"
+          onClick={closeNav}
+        >
+          Home
+        </li>
+        <li
+          className="p-4 hover:text-red-500 ease-in duration-300"
+          onClick={closeNav}
+        >
+          About
+        </li>
+        <li
+          className="p-4 hover:text-red-500 ease-in duration-300"
+          onClick={closeNav}
+        >
           Services
         </li>
-        <li className="p-4 hover:text-red-500 ease-in duration-300">
+        <li
+          className="p-4 hover:text-red-500 ease-in duration-300"
+          onClick={closeNav}
+        >
           Products
         </li>
-        <li className="p-4 hover:text-red-500 ease-in duration-300">News</li>
-        <li className="p-4 hover:text-red-500 ease-in duration-300">Contact</li>
+        <li
+          className="p-4 hover:text-red-500 ease-in duration-300"
+          onClick={closeNav}
+        >
+          News
+        </li>
+        <li
+          className="p-4 hover:text-red-500 ease-in duration-300"
+          onClick={closeNav}
+        >
+          Contact
+        </li>
       </ul>
     </div>
   );
