@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import logo from "../../assets/5L/5L_logo-Red.png";
+import logo from "../../../assets/5L/5L_logo-Red.png";
 
 const Nav = () => {
   const [nav, setNav] = useState(false);

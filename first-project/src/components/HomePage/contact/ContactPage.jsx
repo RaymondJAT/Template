@@ -1,8 +1,8 @@
 import React from "react";
 import ContactForm from "./ContactForm";
-import place from "../../assets/contact/map.png";
-import phone from "../../assets/contact/phone.png";
-import email from "../../assets/contact/email.png";
+import place from "../../../assets/contact/map.png";
+import phone from "../../../assets/contact/phone.png";
+import email from "../../../assets/contact/email.png";
 
 const ContactPage = () => {
   const background = {

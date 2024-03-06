@@ -1,10 +1,10 @@
 import React from "react";
 import CoreCard from "./CoreCard";
-import proactive from "../../assets/proactive.png";
-import integrity from "../../assets/agree.png";
-import efficient from "../../assets/time-management.png";
-import teamwork from "../../assets/united.png";
-import excellence from "../../assets/excellence.png";
+import proactive from "../../../assets/proactive.png";
+import integrity from "../../../assets/agree.png";
+import efficient from "../../../assets/time-management.png";
+import teamwork from "../../../assets/united.png";
+import excellence from "../../../assets/excellence.png";
 
 const CoreValue = () => {
   return (

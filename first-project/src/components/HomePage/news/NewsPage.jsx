@@ -1,11 +1,11 @@
 import React from "react";
-import meet from "../../assets/News/news-one.jpg";
-import team from "../../assets/News/news-two.jpg";
-import strat from "../../assets/News/news-three.jpg";
-import plan from "../../assets/News/news-four.jpg";
+import meet from "../../../assets/News/news-one.jpg";
+import team from "../../../assets/News/news-two.jpg";
+import strat from "../../../assets/News/news-three.jpg";
+import plan from "../../../assets/News/news-four.jpg";
 import NewsCard from "./NewsCard";
-import comms from "../../assets/News/comments.png";
-import likes from "../../assets/News/like.png";
+import comms from "../../../assets/News/comments.png";
+import likes from "../../../assets/News/like.png";
 
 const NewsPage = () => {
   const red = {

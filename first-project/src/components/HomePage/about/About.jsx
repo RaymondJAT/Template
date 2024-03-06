@@ -1,8 +1,8 @@
 import React from "react";
-import vast from "../../assets/about/vast.png";
-import account from "../../assets/about/accountable.png";
-import team from "../../assets/about/team.png";
-import sustain from "../../assets/about/sustain.png";
+import vast from "../../../assets/about/vast.png";
+import account from "../../../assets/about/accountable.png";
+import team from "../../../assets/about/team.png";
+import sustain from "../../../assets/about/sustain.png";
 
 const PartnerSection = () => {
   const styles = {

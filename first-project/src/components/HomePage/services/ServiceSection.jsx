@@ -1,10 +1,10 @@
 import React from "react";
-import ceo from "../../assets/about.jpg";
-import img1 from "../../assets/5L/ElectricalDesignandInstallation.png";
-import img2 from "../../assets/5L/InstallationandRepairofSurveillanceSystemsCCTV.png";
-import img3 from "../../assets/5L/ITSupport.png";
-import img4 from "../../assets/5L/PABXDesignandInstallation.png";
-import img5 from "../../assets/5L/StructuredCablingDesignandInstallation.png";
+import ceo from "../../../assets/about.jpg";
+import img1 from "../../../assets/5L/ElectricalDesignandInstallation.png";
+import img2 from "../../../assets/5L/InstallationandRepairofSurveillanceSystemsCCTV.png";
+import img3 from "../../../assets/5L/ITSupport.png";
+import img4 from "../../../assets/5L/PABXDesignandInstallation.png";
+import img5 from "../../../assets/5L/StructuredCablingDesignandInstallation.png";
 
 const ServiceSection = ({ children }) => {
   const bg = {
