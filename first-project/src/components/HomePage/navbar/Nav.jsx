@@ -48,37 +48,37 @@ const Nav = () => {
           className="p-7 hover:text-red-500 ease-in duration-300"
           onClick={closeNav}
         >
-          Home
+          <a href="/">Home</a>
         </li>
         <li
           className="p-7 hover:text-red-500 ease-in duration-300"
           onClick={closeNav}
         >
-          About
+          <a href="/about">About</a>
         </li>
         <li
           className="p-7 hover:text-red-500 ease-in duration-300"
           onClick={closeNav}
         >
-          Services
+          <a href="/services">Services</a>
         </li>
         <li
           className="p-7 hover:text-red-500 ease-in duration-300"
           onClick={closeNav}
         >
-          Products
+          <a href="/products">Products</a>
         </li>
         <li
           className="p-7 hover:text-red-500 ease-in duration-300"
           onClick={closeNav}
         >
-          News
+          <a href="/news">News</a>
         </li>
         <li
           className="p-7 hover:text-red-500 ease-in duration-300"
           onClick={closeNav}
         >
-          Contact
+          <a href="/contact">Contact</a>
         </li>
       </ul>
       <div
@@ -97,37 +97,37 @@ const Nav = () => {
           className="p-4 hover:text-red-500 ease-in duration-300"
           onClick={closeNav}
         >
-          Home
+          <a href="/">Home</a>
         </li>
         <li
           className="p-4 hover:text-red-500 ease-in duration-300"
           onClick={closeNav}
         >
-          About
+          <a href="/about">About</a>
         </li>
         <li
           className="p-4 hover:text-red-500 ease-in duration-300"
           onClick={closeNav}
         >
-          Services
+          <a href="/services">Services</a>
         </li>
         <li
           className="p-4 hover:text-red-500 ease-in duration-300"
           onClick={closeNav}
         >
-          Products
+          <a href="/products">Products</a>
         </li>
         <li
           className="p-4 hover:text-red-500 ease-in duration-300"
           onClick={closeNav}
         >
-          News
+          <a href="/news">News</a>
         </li>
         <li
           className="p-4 hover:text-red-500 ease-in duration-300"
           onClick={closeNav}
         >
-          Contact
+          <a href="/contact">Contact</a>
         </li>
       </ul>
     </div>
