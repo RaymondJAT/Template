@@ -8,10 +8,6 @@ const Nav = () => {
   const handleNav = () => {
     setNav(!nav);
   };
-  // Xdropdown
-  const closeNav = () => {
-    setNav(false);
-  };
 
   useEffect(() => {
     const handleResize = () => {
@@ -44,40 +40,22 @@ const Nav = () => {
         />
       </h1>
       <ul className="hidden md:flex cursor-pointer mx-5 uppercase text-sm">
-        <li
-          className="p-7 hover:text-red-500 ease-in duration-300"
-          onClick={closeNav}
-        >
+        <li className="p-7 hover:text-red-500 ease-in duration-300">
           <a href="/">Home</a>
         </li>
-        <li
-          className="p-7 hover:text-red-500 ease-in duration-300"
-          onClick={closeNav}
-        >
+        <li className="p-7 hover:text-red-500 ease-in duration-300">
           <a href="/about">About</a>
         </li>
-        <li
-          className="p-7 hover:text-red-500 ease-in duration-300"
-          onClick={closeNav}
-        >
+        <li className="p-7 hover:text-red-500 ease-in duration-300">
           <a href="/services">Services</a>
         </li>
-        <li
-          className="p-7 hover:text-red-500 ease-in duration-300"
-          onClick={closeNav}
-        >
+        <li className="p-7 hover:text-red-500 ease-in duration-300">
           <a href="/products">Products</a>
         </li>
-        <li
-          className="p-7 hover:text-red-500 ease-in duration-300"
-          onClick={closeNav}
-        >
+        <li className="p-7 hover:text-red-500 ease-in duration-300">
           <a href="/news">News</a>
         </li>
-        <li
-          className="p-7 hover:text-red-500 ease-in duration-300"
-          onClick={closeNav}
-        >
+        <li className="p-7 hover:text-red-500 ease-in duration-300">
           <a href="/contact">Contact</a>
         </li>
       </ul>
@@ -93,40 +71,22 @@ const Nav = () => {
         } uppercase cursor-pointer text-sm py-5 text-center`}
         style={{ display: nav || nav === undefined ? "block" : "none" }}
       >
-        <li
-          className="p-4 hover:text-red-500 ease-in duration-300"
-          onClick={closeNav}
-        >
+        <li className="p-4 hover:text-red-500 ease-in duration-300">
           <a href="/">Home</a>
         </li>
-        <li
-          className="p-4 hover:text-red-500 ease-in duration-300"
-          onClick={closeNav}
-        >
+        <li className="p-4 hover:text-red-500 ease-in duration-300">
           <a href="/about">About</a>
         </li>
-        <li
-          className="p-4 hover:text-red-500 ease-in duration-300"
-          onClick={closeNav}
-        >
+        <li className="p-4 hover:text-red-500 ease-in duration-300">
           <a href="/services">Services</a>
         </li>
-        <li
-          className="p-4 hover:text-red-500 ease-in duration-300"
-          onClick={closeNav}
-        >
+        <li className="p-4 hover:text-red-500 ease-in duration-300">
           <a href="/products">Products</a>
         </li>
-        <li
-          className="p-4 hover:text-red-500 ease-in duration-300"
-          onClick={closeNav}
-        >
+        <li className="p-4 hover:text-red-500 ease-in duration-300">
           <a href="/news">News</a>
         </li>
-        <li
-          className="p-4 hover:text-red-500 ease-in duration-300"
-          onClick={closeNav}
-        >
+        <li className="p-4 hover:text-red-500 ease-in duration-300">
           <a href="/contact">Contact</a>
         </li>
       </ul>
