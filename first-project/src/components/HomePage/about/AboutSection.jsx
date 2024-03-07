@@ -2,11 +2,7 @@ import React from "react";
 import ceo from "../../../assets/5L/CEO.png";
 import bgceo from "../../../assets/5L/hero.jpg";
 
-const AboutSection = ({ children }) => {
-  const styles = {
-    backgroundImage: `linear-gradient(rgba(10, 0, 0, 0.7), rgba(10, 0, 0, 0.9)),url(${bgceo})`,
-  };
-
+const AboutSection = () => {
   const bg = {
     background: "#E7E5E4",
   };

@@ -15,7 +15,7 @@ const ContactForm = () => {
                 type="text"
                 required="required"
                 placeholder="First Name"
-                className="w-full py-1 px-0 text-base my-4 mx-0 border-b-2 border-white outline-none resize-none bg-transparent placeholder-white" // Added placeholder-white class
+                className="w-full py-1 px-0 text-base my-4 mx-0 border-b-2 border-white outline-none resize-none bg-transparent placeholder-white"
               />
             </div>
             <div className="inputBox relative w-1/3 mt-3">
@@ -23,7 +23,7 @@ const ContactForm = () => {
                 type="text"
                 required="required"
                 placeholder="Last Name"
-                className="w-full py-1 px-0 text-base my-4 mx-0 border-b-2 border-white outline-none resize-none bg-transparent placeholder-white" // Added placeholder-white class
+                className="w-full py-1 px-0 text-base my-4 mx-0 border-b-2 border-white outline-none resize-none bg-transparent placeholder-white"
               />
             </div>
           </div>
@@ -34,7 +34,7 @@ const ContactForm = () => {
             type="text"
             required="required"
             placeholder="Email"
-            className="w-3/4 py-1 px-0 text-base my-4 mx-0 border-b-2 border-white outline-none resize-none bg-transparent placeholder-white" // Added placeholder-white class
+            className="w-3/4 py-1 px-0 text-base my-4 mx-0 border-b-2 border-white outline-none resize-none bg-transparent placeholder-white"
           />
         </div>
 
@@ -42,7 +42,7 @@ const ContactForm = () => {
           <textarea
             required="required"
             placeholder="Type your Message"
-            className="bg-transparent w-3/4 py-1 px-0 text-base my-4 mx-0 border-b-2 border-white outline-none resize-none placeholder-white" // Added placeholder-white class
+            className="bg-transparent w-3/4 py-1 px-0 text-base my-4 mx-0 border-b-2 border-white outline-none resize-none placeholder-white"
           ></textarea>
         </div>
 

@@ -25,10 +25,34 @@ const NewsPage = () => {
       </h2>
 
       <div className="align_center featured_products_list justify-evenly mb-16">
-        <NewsCard image={meet} like={likes} iconLeft={comms} />
-        <NewsCard image={team} like={likes} iconLeft={comms} />
-        <NewsCard image={strat} like={likes} iconLeft={comms} />
-        <NewsCard image={plan} like={likes} iconLeft={comms} />
+        <NewsCard
+          image={meet}
+          like={likes}
+          iconLeft={comms}
+          title="Article Title"
+          subtitle="Lorem ipsum dolor sit amet consectetur adipisicing....."
+        />
+        <NewsCard
+          image={team}
+          like={likes}
+          iconLeft={comms}
+          title="Article Title"
+          subtitle="Lorem ipsum dolor sit amet consectetur adipisicing....."
+        />
+        <NewsCard
+          image={strat}
+          like={likes}
+          iconLeft={comms}
+          title="Article Title"
+          subtitle="Lorem ipsum dolor sit amet consectetur adipisicing....."
+        />
+        <NewsCard
+          image={plan}
+          like={likes}
+          iconLeft={comms}
+          title="Article Title"
+          subtitle="Lorem ipsum dolor sit amet consectetur adipisicing....."
+        />
       </div>
       <div className="w-64 text-center mx-auto mt-5">
         <button

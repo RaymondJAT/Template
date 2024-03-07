@@ -13,10 +13,8 @@ const NewsCard = ({ image, iconLeft, title, subtitle, like }) => {
         </a>
       </div>
       <div className="product_details py-5 px-5">
-        <h3 className="product_price text-21 font-bold">Article Title</h3>
-        <p className="product_title text-sm mt-1 flex">
-          Lorem ipsum dolor sit amet consectetur adipisicing.....
-        </p>
+        <h3 className="product_price text-21 font-bold">{title}</h3>
+        <p className="product_title text-sm mt-1 flex">{subtitle}</p>
         <div>
           <div className="align_left my-7 flex flex-col items-end">
             <p className="text-base w-full text-gray-500 border-b-2 border-gray-200 mb-2"></p>

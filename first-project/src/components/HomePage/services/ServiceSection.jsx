@@ -1,5 +1,4 @@
 import React from "react";
-import ceo from "../../../assets/about.jpg";
 import img1 from "../../../assets/5L/ElectricalDesignandInstallation.png";
 import img2 from "../../../assets/5L/InstallationandRepairofSurveillanceSystemsCCTV.png";
 import img3 from "../../../assets/5L/ITSupport.png";

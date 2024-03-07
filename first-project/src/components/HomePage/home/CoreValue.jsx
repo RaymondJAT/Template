@@ -15,13 +15,11 @@ const CoreValue = () => {
         ttlColor="white"
         txtColor="white"
         title="Core Value"
-        // subtitle="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste explicabo quisquam, deleniti, esse doloremque repellendus suscipit adipisci iure nemo dolores at pariatur ad natus. Dolores."
       />
       <CoreCard
         image={integrity}
         bgColor="rgb(214 211 209)"
         title="Core Value"
-        // subtitle="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste explicabo quisquam, deleniti, esse doloremque repellendus suscipit adipisci iure nemo dolores at pariatur ad natus. Dolores."
       />
       <CoreCard
         image={efficient}
@@ -29,13 +27,11 @@ const CoreValue = () => {
         ttlColor="white"
         txtColor="white"
         title="Core Value"
-        // subtitle="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste explicabo quisquam, deleniti, esse doloremque repellendus suscipit adipisci iure nemo dolores at pariatur ad natus. Dolores."
       />
       <CoreCard
         image={teamwork}
         bgColor="rgb(214 211 209)"
         title="Core Value"
-        // subtitle="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste explicabo quisquam, deleniti, esse doloremque repellendus suscipit adipisci iure nemo dolores at pariatur ad natus. Dolores."
       />
       <CoreCard
         image={excellence}
@@ -43,7 +39,6 @@ const CoreValue = () => {
         ttlColor="white"
         txtColor="white"
         title="Core Value"
-        // subtitle="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste explicabo quisquam, deleniti, esse doloremque repellendus suscipit adipisci iure nemo dolores at pariatur ad natus. Dolores."
       />
     </div>
   );
