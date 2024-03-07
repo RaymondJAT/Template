@@ -20,88 +20,36 @@
   }
 }
 
-@media (max-width: 768px) {
-  .div1 {
+/* ABOUT SECTION */
+@media screen and (max-width: 1180px) {
+  .about .content {
+    flex-direction: column-reverse; /* Image placed at the bottom */
+  }
+
+  .about {
     width: 100%;
-    float: none;
-    order: 2;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-  }
-
-  .div1 p,
-  button {
-    width: 100%;
-    float: none;
-    font-size: small;
-    padding-top: 5px;
-  }
-
-  .div1 h2 {
-    font-size: larger;
-  }
-
-  .div1 h1 {
-    margin: 0;
-    font-size: large;
-    padding-top: 200px;
+    height: auto;
+    padding: 70px 0px;
   }
 }
 
-@media (max-width: 768px) {
-  .div2 {
-    position: relative;
-    float: none;
-    width: 100%;
-    order: 1;
+@media screen and (max-width: 650px) {
+  .about .content {
+    flex-direction: column-reverse; /* Image placed at the bottom */
   }
 
-  .div2 > * {
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    margin-bottom: 360px;
+  .about .content img {
+    height: 450px;
+    width: 400px;
+    margin-bottom: 50px;
   }
 
-  .div2 img {
-    position: absolute;
-    width: 650px;
-    height: 470px;
-    padding-top: 200px;
-    align-items: center;
-    margin-top: 450px;
-    padding-right: 40px;
+  .text h1 {
+    font-size: 60px;
+    margin-bottom: 25px;
   }
 
-  .div2 div:nth-child(2) {
-    z-index: 20;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .wrapper {
-    flex-direction: column;
-    margin-top: 0px;
-  }
-
-  .header h1 {
-    font-size: 55px;
-  }
-
-  .container .heading h1 {
-    font-size: 29px;
-    padding-top: 50px;
-  }
-
-  .container .heading p {
-    font-size: 17px;
-  }
-  .content {
-    width: 100%;
-    margin-top: 30px;
-  }
-
-  .image {
-    width: 100%;
+  .text p {
+    text-align: justify;
   }
 }
