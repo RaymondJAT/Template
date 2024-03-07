@@ -21,7 +21,7 @@ const HomePage = () => {
     <section>
       <div className="w-full min-h-screen pb-16" style={styles}>
         <HomeSection
-          title="finding solutions"
+          title="unlocking solutions"
           title1="at its best"
           subtitle="Embark on a journey of limitless innovation and excellence with us."
           subtitle1="Explore our offerings and transform your experience."

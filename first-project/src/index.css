@@ -16,7 +16,7 @@
 
 @media (max-width: 768px) {
   #hero_title {
-    margin-top: 200px; /* Adjust this value as needed */
+    margin-top: 200px;
   }
 }
 
@@ -39,7 +39,6 @@
 
   .div1 h2 {
     font-size: larger;
-    /* padding-top: 0; */
   }
 
   .div1 h1 {
@@ -77,8 +76,24 @@
   .div2 div:nth-child(2) {
     z-index: 20;
   }
+}
 
-  /* .div2 div:nth-child(3) {
-    z-index: 30;
-  } */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+
+  .container .heading h1 {
+    font-size: 40px;
+  }
+
+  .content {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .image {
+    width: 100%;
+  }
 }

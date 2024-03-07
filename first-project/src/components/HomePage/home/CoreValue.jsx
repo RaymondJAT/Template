@@ -5,10 +5,23 @@ import integrity from "../../../assets/agree.png";
 import efficient from "../../../assets/time-management.png";
 import teamwork from "../../../assets/united.png";
 import excellence from "../../../assets/excellence.png";
+import hero from "../../../assets/5L/hero.jpg";
 
 const CoreValue = () => {
+  const styles = {
+    backgroundImage: `linear-gradient(rgba(10, 0, 0, 0.8), rgba(10, 0, 0, 1)),url(${hero})`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
+    backgroundAttachment: "fixed",
+    innerWidth: "100%",
+  };
+
   return (
-    <div className="flex items-center justify-evenly mt-60">
+    <div className="flex flex-col justify-evenly pb-28" style={styles}>
+      <div>
+        <h1 className="text-white">Core Value</h1>
+      </div>
       <CoreCard
         image={proactive}
         bgColor="#7a1818"

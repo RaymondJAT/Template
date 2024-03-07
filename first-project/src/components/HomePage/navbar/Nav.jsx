@@ -56,7 +56,7 @@ const Nav = () => {
           <a href="/news">News</a>
         </li>
         <li className="p-7 hover:text-red-500 ease-in duration-300">
-          <a href="/contact">Contact</a>
+          <a href="/contacts">Contact</a>
         </li>
       </ul>
       <div
@@ -87,7 +87,7 @@ const Nav = () => {
           <a href="/news">News</a>
         </li>
         <li className="p-4 hover:text-red-500 ease-in duration-300">
-          <a href="/contact">Contact</a>
+          <a href="/contacts">Contact</a>
         </li>
       </ul>
     </div>
