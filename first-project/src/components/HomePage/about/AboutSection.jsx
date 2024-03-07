@@ -1,6 +1,5 @@
 import React from "react";
 import ceo from "../../../assets/5L/CEO.png";
-import bgceo from "../../../assets/5L/hero.jpg";
 
 const AboutSection = () => {
   const bg = {

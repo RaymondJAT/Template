@@ -12,14 +12,10 @@ import ContactPage from "./components/ContactPage/Contacts";
 const App = () => {
   return (
     <div>
-      <div>
-        <Nav />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-        </Routes>
-      </div>
+      <Nav />
       {/* Routing */}
       <Routes>
+        <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/services" element={<ServicePage />} />
         <Route path="/products" element={<ProductPage />} />
