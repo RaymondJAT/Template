@@ -1,7 +1,6 @@
 import React from "react";
-import hero from "../../assets/5L/hero.jpg";
-
 import Ceo from "./Ceo";
+import hero from "../../assets/5L/hero.jpg";
 import ContactPage from "../HomePage/contact/ContactSection";
 
 const About = () => {

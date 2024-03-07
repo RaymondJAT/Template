@@ -25,7 +25,7 @@ const AboutSection = () => {
               5l solutions supply & <br />
               allied service corp.
             </h5>
-            <p className=" text-lg leading-7 tracking-wide mb-11">
+            <p className="leading-7 text-base tracking-wide mb-5">
               5L SOLUTIONS SUPPLY AND ALLIED SERVICES is company who provides
               technical equipment and services in the field of information
               Technology in offices, residences, companies and manufacturing
@@ -35,9 +35,12 @@ const AboutSection = () => {
               as CCTV, cable, air conditioning, system, security system
               customized to Customer requirement.
             </p>
+            <p className="text-lg leading-7 tracking-wide mb-9">
+              Gil A. Bagapuro - <strong>CEO</strong>
+            </p>
             <button
               type="button"
-              className="justify-center text-white items-center block my-auto mx-auto py-3 px-8 text-lg font-bold no-underline rounded-lg bg-black"
+              className="justify-center text-white items-center block my-auto mx-auto py-3 px-8 text-base font-bold no-underline rounded-lg bg-black"
             >
               Learn more about us
             </button>
@@ -45,7 +48,7 @@ const AboutSection = () => {
           <img
             src={ceo}
             alt="mr. bagapuro"
-            className="max-w-full h-[500px] w-[500px]"
+            className="max-w-full h-[500px] w-[500px] rounded-2xl border-8 border-red-600"
           />
         </div>
         {/* Skew*/}
@@ -53,7 +56,7 @@ const AboutSection = () => {
           className="absolute bottom-0 left-0 w-full h-60"
           style={{
             background: "#FF0000",
-            clipPath: "polygon(0% 60%, 100% 100%, 0% 100%)",
+            clipPath: "polygon(0% 80%, 100% 100%, 0% 100%)",
             marginBottom: "-1px",
           }}
         ></div>
