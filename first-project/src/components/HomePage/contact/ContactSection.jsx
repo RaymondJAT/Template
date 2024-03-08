@@ -1,49 +1,107 @@
 import React from "react";
-import ContactForm from "./ContactForm";
-import place from "../../../assets/contact/map.png";
-import phone from "../../../assets/contact/phone.png";
-import email from "../../../assets/contact/email.png";
-
+import {
+  FaFacebook,
+  FaTwitter,
+  FaInstagram,
+  FaGlobe,
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaCopyright,
+} from "react-icons/fa";
 const ContactPage = () => {
   return (
-    <section className="relative py-0 px-24 flex justify-center items-center flex-col bg-stone-950">
-      <div className="container w-full flex flex-col md:flex-row justify-between items-center ml-32 mt-8">
-        <div className="contactInfo w-full md:w-6/12 flex flex-col md:mr-8">
-          <div className="box relative py-10 px-0 flex">
-            <div className="icon min-w-14 justify-center items-center rounded-full text-base">
-              <img src={place} alt="map img" className="w-14 h-14" />
-            </div>
-            <div className="text flex ml-12 text-base text-white flex-col font-semibold">
-              <h3>Address</h3>
-              <p className="text-left font-light text-white">
-                Lorem ipsum, dolor sit <br />
-                amet consectetur, adipisicing elit. <br />
-                Maiores, culpa.
-              </p>
-            </div>
-          </div>
-          <div className="box relative py-10 px-0 flex">
-            <div className="icon min-w-14 h-14 justify-center items-center rounded-full text-base">
-              <img src={phone} alt="phone img" className="w-14 h-14" />
-            </div>
-            <div className="text flex ml-12 text-base text-white flex-col font-semibold">
-              <h3>Phone</h3>
-              <p className="text-left font-light text-white">0911-456-7890</p>
-            </div>
-          </div>
-          <div className="box relative py-12 px-0 flex">
-            <div className="icon min-w-14 h-14 justify-center items-center rounded-full text-base">
-              <img src={email} alt="email img" className="w-16 h-16" />
-            </div>
-            <div className="text flex ml-12 pt-2 text-base text-white flex-col font-semibold">
-              <h3>Email</h3>
-              <p className="text-left font-light text-white">
-                sampleEmail@email.com
-              </p>
+    <section>
+      <div className="main-content">
+        <div className="left box">
+          <h2>About Us</h2>
+          <div className="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              voluptates accusamus tempore consectetur recusandae ipsum
+              laboriosam assumenda ea alias laudantium illum, blanditiis
+              voluptatibus impedit officia.
+            </p>
+            <div className="social">
+              <a href="#">
+                <span className="fa facebook">
+                  {" "}
+                  <FaFacebook />
+                </span>
+              </a>
+              <a href="#">
+                <span className="fa twitter">
+                  {" "}
+                  <FaTwitter />
+                </span>
+              </a>
+              <a href="#">
+                <span className="fa instagram">
+                  {" "}
+                  <FaInstagram />
+                </span>
+              </a>
+              <a href="#">
+                <span className="fa globe">
+                  {" "}
+                  <FaGlobe />
+                </span>
+              </a>
             </div>
           </div>
         </div>
-        <ContactForm />
+        <div className="center box">
+          <h2>Address</h2>
+          <div className="content">
+            <div className="place">
+              <span className="fa marker">
+                <FaMapMarkerAlt />
+              </span>
+              <span className="text">Put your Address, here</span>
+            </div>
+            <div className="phone">
+              <span className="fa phone">
+                <FaPhoneAlt />
+              </span>
+              <span className="text">123-123-1234</span>
+            </div>
+            <div className="email">
+              <span className="fa email">
+                <FaEnvelope />
+              </span>
+              <span className="text">sampleEmail@email.com</span>
+            </div>
+          </div>
+        </div>
+        <div className="right box">
+          <h2>Contact Us</h2>
+          <div className="content">
+            <form action="#">
+              <div className="email">
+                <div className="text">Email</div>
+                <input type="email" name="" id="" required />
+              </div>
+              <div className="msg">
+                <div className="text">Message</div>
+                <textarea name="" id="" cols="25" rows="3"></textarea>
+              </div>
+              <div className="btn">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div className="bottom">
+        <center>
+          <span className="credit">
+            Created By <a href="#">RaymondJAT</a> |{" "}
+          </span>
+          <span className="fa copyright">
+            <FaCopyright />
+          </span>
+          <span>2024 All rights reserved.</span>
+        </center>
       </div>
     </section>
   );
