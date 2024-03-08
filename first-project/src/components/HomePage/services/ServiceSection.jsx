@@ -17,9 +17,9 @@ const ServiceSection = () => {
           <img
             src={service}
             alt="services img"
-            className="h-[500px] w-[450px] rounded-xl border-8 border-stone-900"
+            className="h-[500px] w-[450px] rounded-xl border-8 border-stone-900 order-2 md:order-1 mb-10 md:mb-0"
           />
-          <div className="service-text w-[550px] max-w-full py-0 px-3">
+          <div className="service-text w-[550px] max-w-full py-0 px-3 order-1 md:order-2">
             <h1 className="capitalize text-[34px] mb-5 font-bold">
               <span className="text-white">Providing</span> high-quality
               services

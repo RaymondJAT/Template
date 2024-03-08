@@ -59,7 +59,12 @@
 
   .text h1,
   .service-text h1 {
-    font-size: 25px;
+    font-size: 27px;
+    margin-bottom: 25px;
+  }
+
+  .service-text h1 span {
+    font-size: 32px;
     margin-bottom: 25px;
   }
 
