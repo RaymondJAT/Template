@@ -208,6 +208,7 @@
 
   .left-container img,
   .right-container img {
+    border: none;
     width: 50px;
     left: 10px;
   }

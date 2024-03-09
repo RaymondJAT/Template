@@ -22,7 +22,7 @@ const CoreValue = () => {
           <img
             src={proactive}
             alt="core value"
-            className="absolute w-56 rounded-[30%] -right-96 top-8 z-10"
+            className="absolute w-56 rounded-[30%] -right-96 top-8 z-10 border-4 border-solid border-slate-200"
           />
           <div className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600">
             <h2 className="font-semibold text-2xl">Proactive</h2>
@@ -40,7 +40,7 @@ const CoreValue = () => {
           <img
             src={proactive}
             alt="core value"
-            className="absolute w-56 rounded-[30%] -right-5 top-8 z-10 -left-96"
+            className="absolute w-56 rounded-[30%] -right-5 top-8 z-10 -left-96 border-4 border-solid border-slate-200"
           />
           <div className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600">
             <h2 className="font-semibold text-2xl">Integrity</h2>
@@ -59,7 +59,7 @@ const CoreValue = () => {
           <img
             src={proactive}
             alt="core value"
-            className="absolute w-56 rounded-[30%] -right-96 top-8 z-10"
+            className="absolute w-56 rounded-[30%] -right-96 top-8 z-10 border-4 border-solid border-slate-200"
           />
           <div className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600">
             <h2 className="font-semibold text-2xl">Efficiency</h2>
@@ -77,7 +77,7 @@ const CoreValue = () => {
           <img
             src={proactive}
             alt="core value"
-            className="absolute w-56 rounded-[30%] -right-5 top-8 z-10 -left-96"
+            className="absolute w-56 rounded-[30%] -right-5 top-8 z-10 -left-96 border-4 border-solid border-slate-200"
           />
           <div className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600">
             <h2 className="font-semibold text-2xl">Teamwork</h2>
@@ -95,7 +95,7 @@ const CoreValue = () => {
           <img
             src={proactive}
             alt="core value"
-            className="absolute w-56 rounded-[30%] -right-96 top-8 z-10"
+            className="absolute w-56 rounded-[30%] -right-96 top-8 z-10 border-4 border-solid border-slate-200"
           />
           <div className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600">
             <h2 className="font-semibold text-2xl">Excellence</h2>
