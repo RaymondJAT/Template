@@ -1,7 +1,7 @@
 import React from "react";
 import ContactSection from "../HomePage/contact/ContactSection";
 import hero from "../../assets/5L/hero.jpg";
-import ProductCard from "../HomePage/products/ProductCard";
+import ServiceContent from "./ServiceContent";
 
 const Services = () => {
   const styles = {
@@ -25,7 +25,7 @@ const Services = () => {
           Our Services
         </h1>
       </div>
-      <div>hello</div>
+      <ServiceContent />
       <ContactSection />
     </section>
   );

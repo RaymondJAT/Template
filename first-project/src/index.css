@@ -227,3 +227,30 @@
     max-width: 100%;
   }
 }
+
+/* SERVICES */
+@media screen and (max-width: 1200px) {
+  .service-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .service-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .service-title h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .service-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .service-title h1 {
+    font-size: 2.5rem;
+  }
+}
