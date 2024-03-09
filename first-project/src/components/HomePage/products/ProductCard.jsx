@@ -2,16 +2,14 @@ import React from "react";
 
 const ProductCard = ({ image }) => {
   return (
-    <div className="product_card w-64 h-48 shadow-md bg-transparent overflow-hidden flex-col">
-      <div className="product_image flex justify-center h-48 text-center">
-        <a href="product/1">
-          <img
-            src={image}
-            className="h-full w-screen bg-contain"
-            style={{ border: "5px solid red" }}
-            alt="product image"
-          />
-        </a>
+    <div className="text-center w-72 overflow-hidden mt-4 border-4 border-solid border-red-600 rounded-2xl shadow-neutral-950">
+      <div className="product_image w-60 my-5 mx-auto">
+        <img
+          src={image}
+          alt="product image"
+          className="w-full transition duration-500 hover:transform scale-100"
+        />
+        <h4 className="py-0 px-6 mb-3 text-lg">Lorem ipsum dolor sit amet.</h4>
       </div>
     </div>
   );

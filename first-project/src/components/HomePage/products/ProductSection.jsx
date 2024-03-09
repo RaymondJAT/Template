@@ -3,7 +3,7 @@ import bg from "../../../assets/partner-bg.jpg";
 import ProductCard from "./ProductCard";
 import ups from "../../../assets/Products/UPS.png";
 import ups2 from "../../../assets/Products/UPS2.png";
-import sm from "../../../assets/Products/small.png";
+import yellow from "../../../assets/Products/yellow.png";
 import ref from "../../../assets/Products/ref.png";
 import dunkin from "../../../assets/Partner/Dunkin.jpg";
 import wats from "../../../assets/Partner/watsons.jpg";
@@ -25,39 +25,73 @@ const ProductSection = () => {
   };
 
   return (
-    <section>
-      <div style={styles}>
-        <div className="pt-9 pb-9 flex flex-col">
-          <h2 className="font-bold text-4xl text-center text-white">
-            Our Products
-          </h2>
-        </div>
-        <div className="align_center featured_products_list justify-evenly mx-16 mb-16">
-          <ProductCard image={ups} />
-          <ProductCard image={sm} />
-          <ProductCard image={ref} />
-          <ProductCard image={ups2} />
-        </div>
-
-        <div className="w-64 text-center mx-auto mt-5">
-          <button
-            type="button"
-            className="text-white w-64 py-2 justify-center rounded-md bg-stone-950 font-bold text-sm"
-            style={red}
-          >
-            Learn more about our products
-          </button>
+    <section
+      className="product-section w-full h-screen flex items-center justify-center"
+      style={styles}
+    >
+      <div className="section-container w-11/12 h-full pt-4 flex flex-wrap items-center justify-around">
+        {/* 1st product */}
+        <div className="card w-72 overflow-hidden mt-4 text-center border-4 border-solid border-red-600 rounded-2xl shadow-slate-400">
+          <div className="product-image w-60 my-5 mx-auto">
+            <img
+              src={ref}
+              alt=""
+              className="w-full transition duration-500 hover:scale-110"
+            />
+          </div>
+          <div className="product-info">
+            <h4 className="text-lg py-0 px-6 mb-3 text-white">
+              Lorem ipsum dolor sit amet.
+            </h4>
+          </div>
         </div>
 
-        <div className="pt-24 flex flex-col">
-          <h2 className="font-bold text-4xl text-center text-white">
-            Our Partners
-          </h2>
+        {/* 2nd product */}
+        <div className="card w-72 overflow-hidden mt-4 text-center border-4 border-solid border-red-600 rounded-2xl shadow-slate-400">
+          <div className="product-image w-60 my-5 mx-auto">
+            <img
+              src={ups}
+              alt=""
+              className="w-full transition duration-500 hover:scale-110"
+            />
+          </div>
+          <div className="product-info">
+            <h4 className="text-lg py-0 px-6 mb-3 text-white">
+              Lorem ipsum dolor sit amet.
+            </h4>
+          </div>
         </div>
-        <div className="align_center pt-12 featured_products_list justify-evenly mb-16">
-          <PartnerCard image={dunkin} />
-          <PartnerCard image={wats} />
-          <PartnerCard image={sevEl} />
+
+        {/* 3rd product */}
+        <div className="card w-72 overflow-hidden mt-4 text-center border-4 border-solid border-red-600 rounded-2xl shadow-slate-400">
+          <div className="product-image w-60 my-5 mx-auto">
+            <img
+              src={ups2}
+              alt=""
+              className="w-full transition duration-500 hover:scale-110"
+            />
+          </div>
+          <div className="product-info">
+            <h4 className="text-lg py-0 px-6 mb-3 text-white">
+              Lorem ipsum dolor sit amet.
+            </h4>
+          </div>
+        </div>
+
+        {/* 4th product */}
+        <div className="card w-72 overflow-hidden mt-4 text-center border-4 border-solid border-red-600 rounded-2xl shadow-slate-400">
+          <div className="product-image w-60 my-5 mx-auto">
+            <img
+              src={yellow}
+              alt=""
+              className="w-full transition duration-500 hover:scale-110"
+            />
+          </div>
+          <div className="product-info">
+            <h4 className="text-lg py-0 px-6 mb-3 text-white">
+              Lorem ipsum dolor sit amet.
+            </h4>
+          </div>
         </div>
       </div>
     </section>

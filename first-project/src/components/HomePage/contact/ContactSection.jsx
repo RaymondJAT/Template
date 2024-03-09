@@ -31,25 +31,25 @@ const ContactPage = () => {
               <a href="#" className="py-0 px-2">
                 <FaFacebookSquare
                   size={35}
-                  className=" bg-stone-800 leading-10 text-center text-lg rounded-md transition duration-300 hover:bg-red-600"
+                  className=" bg-stone-950 leading-10 text-center text-lg rounded-md transition duration-300 hover:bg-red-600"
                 />
               </a>
               <a href="#" className="py-0 px-2">
                 <FaTwitterSquare
                   size={35}
-                  className=" bg-stone-800 leading-10 text-center text-lg rounded-md transition duration-300 hover:bg-red-600"
+                  className=" bg-stone-950 leading-10 text-center text-lg rounded-md transition duration-300 hover:bg-red-600"
                 />
               </a>
               <a href="#" className="py-0 px-2">
                 <FaInstagramSquare
                   size={35}
-                  className=" bg-stone-800 leading-10 text-center text-lg rounded-md transition duration-300 hover:bg-red-600"
+                  className=" bg-stone-950 leading-10 text-center text-lg rounded-md transition duration-300 hover:bg-red-600"
                 />
               </a>
               <a href="#" className="py-0 px-2">
                 <FaGlobeAsia
                   size={35}
-                  className=" bg-stone-800 leading-10 text-center text-lg rounded-md transition duration-300 hover:bg-red-600"
+                  className=" bg-stone-950 leading-10 text-center text-lg rounded-md transition duration-300 hover:bg-red-600"
                 />
               </a>
             </div>
@@ -62,7 +62,7 @@ const ContactPage = () => {
             <div className="place flex items-center">
               <FaMapMarkerAlt
                 size={35}
-                className="bg-stone-900 leading-10 text-center rounded-md transition duration-300 cursor-pointer hover:bg-red-600"
+                className="bg-stone-950 leading-10 text-center rounded-md transition duration-300 cursor-pointer hover:bg-red-600"
               />
               <span className="text text-lg pl-3 font-medium">
                 Put your Address, here
@@ -72,7 +72,7 @@ const ContactPage = () => {
             <div className="phone my-9 mx-0 flex items-center">
               <FaPhoneAlt
                 size={35}
-                className="bg-stone-900 leading-10 text-center rounded-md transition duration-300 cursor-pointer hover:bg-red-600"
+                className="bg-stone-950 leading-10 text-center rounded-md transition duration-300 cursor-pointer hover:bg-red-600"
               />
               <span className="text text-lg pl-3 font-medium">
                 123-123-1234
@@ -82,7 +82,7 @@ const ContactPage = () => {
             <div className="email flex items-center">
               <FaEnvelope
                 size={35}
-                className="bg-stone-900 leading-10 text-center rounded-md transition duration-300 cursor-pointer hover:bg-red-600"
+                className="bg-stone-950 leading-10 text-center rounded-md transition duration-300 cursor-pointer hover:bg-red-600"
               />
               <span className="text text-lg pl-3 font-medium">
                 sampleEmail@email.com
