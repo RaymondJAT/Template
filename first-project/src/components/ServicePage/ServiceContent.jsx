@@ -8,7 +8,11 @@ const ServiceContent = () => {
         <div className="service flex flex-col items-center">
           <div className="service-cards grid grid-cols-3 gap-24">
             <div className="card h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
-              <img src={ref} alt="" className="mt-8 mb-5 h-52 w-full" />
+              <img
+                src={ref}
+                alt=""
+                className="mt-8 mb-5 h-52 w-full rounded-xl"
+              />
               <h2 className="a text-xl font-semibold tracking-wide">
                 IT Support
               </h2>
@@ -20,7 +24,11 @@ const ServiceContent = () => {
             </div>
 
             <div className="card h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
-              <img src={ref} alt="" className="mt-8 mb-5 h-52 w-full" />
+              <img
+                src={ref}
+                alt=""
+                className="mt-8 mb-5 h-52 w-full rounded-xl"
+              />
               <h2 className="a text-xl font-semibold tracking-wide">
                 Installation and Repair of Surveillance Systems/CCTV
               </h2>
@@ -31,7 +39,11 @@ const ServiceContent = () => {
             </div>
 
             <div className="card h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
-              <img src={ref} alt="" className="mt-8 mb-5 h-52 w-full" />
+              <img
+                src={ref}
+                alt=""
+                className="mt-8 mb-5 h-52 w-full rounded-xl"
+              />
               <h2 className="a text-xl font-semibold tracking-wide">
                 Electrical Design and Installation
               </h2>
@@ -42,7 +54,11 @@ const ServiceContent = () => {
             </div>
 
             <div className="card h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
-              <img src={ref} alt="" className="mt-8 mb-5 h-52 w-full" />
+              <img
+                src={ref}
+                alt=""
+                className="mt-8 mb-5 h-52 w-full rounded-xl"
+              />
               <h2 className="a text-xl font-semibold tracking-wide">
                 Solar Panel Design and Installation
               </h2>
@@ -53,7 +69,11 @@ const ServiceContent = () => {
             </div>
 
             <div className="card h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
-              <img src={ref} alt="" className="mt-8 mb-5 h-52 w-full" />
+              <img
+                src={ref}
+                alt=""
+                className="mt-8 mb-5 h-52 w-full rounded-xl"
+              />
               <h2 className="a text-xl font-semibold tracking-wide">
                 PABX Design and Installation
               </h2>
@@ -64,7 +84,11 @@ const ServiceContent = () => {
             </div>
 
             <div className="card h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
-              <img src={ref} alt="" className="mt-8 mb-5 h-52 w-full" />
+              <img
+                src={ref}
+                alt=""
+                className="mt-8 mb-5 h-52 w-full rounded-xl"
+              />
               <h2 className="a text-xl font-semibold tracking-wide">
                 RFID System Design and Installation
               </h2>
@@ -75,7 +99,11 @@ const ServiceContent = () => {
             </div>
 
             <div className="card h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
-              <img src={ref} alt="" className="mt-8 mb-5 h-52 w-full" />
+              <img
+                src={ref}
+                alt=""
+                className="mt-8 mb-5 h-52 w-full rounded-xl"
+              />
               <h2 className="a text-xl font-semibold tracking-wide">
                 Structured Cabling Design and Installation
               </h2>
@@ -87,7 +115,11 @@ const ServiceContent = () => {
             </div>
 
             <div className="card h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
-              <img src={ref} alt="" className="mt-8 mb-5 h-52 w-full" />
+              <img
+                src={ref}
+                alt=""
+                className="mt-8 mb-5 h-52 w-full rounded-xl"
+              />
               <h2 className="a text-xl font-semibold tracking-wide">
                 Civil Works / Landscaping / Door Access
               </h2>
@@ -99,7 +131,11 @@ const ServiceContent = () => {
             </div>
 
             <div className="card h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
-              <img src={ref} alt="" className="mt-8 mb-5 h-52 w-full" />
+              <img
+                src={ref}
+                alt=""
+                className="mt-8 mb-5 h-52 w-full rounded-xl"
+              />
               <h2 className="a text-xl font-semibold tracking-wide">
                 Industrial Board Repair
               </h2>

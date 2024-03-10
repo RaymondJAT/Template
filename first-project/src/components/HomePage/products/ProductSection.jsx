@@ -21,80 +21,51 @@ const ProductSection = () => {
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     backgroundAttachment: "fixed",
-    height: "680px",
   };
 
   return (
-    <section
-      className="product-section w-full h-screen flex items-center justify-center"
-      style={styles}
-    >
-      <div className="section-container w-11/12 h-full pt-4 flex flex-wrap items-center justify-around">
-        {/* 1st product */}
-        <div className="card w-72 overflow-hidden mt-4 text-center border-4 border-solid border-red-600 rounded-2xl shadow-slate-400">
-          <div className="product-image w-60 my-5 mx-auto">
-            <img
-              src={ref}
-              alt=""
-              className="w-full transition duration-500 hover:scale-110"
-            />
-          </div>
-          <div className="product-info">
-            <h4 className="text-lg py-0 px-6 mb-3 text-white">
-              Lorem ipsum dolor sit amet.
-            </h4>
-          </div>
-        </div>
-
-        {/* 2nd product */}
-        <div className="card w-72 overflow-hidden mt-4 text-center border-4 border-solid border-red-600 rounded-2xl shadow-slate-400">
-          <div className="product-image w-60 my-5 mx-auto">
-            <img
-              src={ups}
-              alt=""
-              className="w-full transition duration-500 hover:scale-110"
-            />
-          </div>
-          <div className="product-info">
-            <h4 className="text-lg py-0 px-6 mb-3 text-white">
-              Lorem ipsum dolor sit amet.
-            </h4>
-          </div>
-        </div>
-
-        {/* 3rd product */}
-        <div className="card w-72 overflow-hidden mt-4 text-center border-4 border-solid border-red-600 rounded-2xl shadow-slate-400">
-          <div className="product-image w-60 my-5 mx-auto">
-            <img
-              src={ups2}
-              alt=""
-              className="w-full transition duration-500 hover:scale-110"
-            />
-          </div>
-          <div className="product-info">
-            <h4 className="text-lg py-0 px-6 mb-3 text-white">
-              Lorem ipsum dolor sit amet.
-            </h4>
-          </div>
-        </div>
-
-        {/* 4th product */}
-        <div className="card w-72 overflow-hidden mt-4 text-center border-4 border-solid border-red-600 rounded-2xl shadow-slate-400">
-          <div className="product-image w-60 my-5 mx-auto">
-            <img
-              src={yellow}
-              alt=""
-              className="w-full transition duration-500 hover:scale-110"
-            />
-          </div>
-          <div className="product-info">
-            <h4 className="text-lg py-0 px-6 mb-3 text-white">
-              Lorem ipsum dolor sit amet.
-            </h4>
-          </div>
-        </div>
+    <div className="product-container text-center" style={styles}>
+      <div className="product-header pt-14 text-4xl m-auto leading-10">
+        <h1 className="font-bold uppercase text-white">Our Product</h1>
       </div>
-    </section>
+
+      <div className="subproduct-container max-w-7xl m-auto pb-5 px-0 flex flex-wrap justify-center">
+        <div className="product-teams my-14 mx-5 p-6 max-w-[30%] cursor-pointer border border-solid border-white rounded-xl transition duration-500 box-border hover:bg-slate-100 hover:rounded-xl hover:scale-110 hover:text-black">
+          <p className="name font-bold text-base capitalize text-white transition duration-300 hover:text-black">
+            <img src={yellow} alt="" className="w-56 h-full py-3 my-2 mx-0" />
+            Cyber<span className="text-red-600">Power</span> CPS
+          </p>
+        </div>
+
+        <div className="product-teams my-14 mx-5 p-6 max-w-[30%] cursor-pointer border border-solid border-white rounded-xl transition duration-500 box-border hover:bg-slate-100 hover:rounded-xl hover:scale-110">
+          <p className="name font-bold text-base capitalize text-white transition duration-300 hover:text-black">
+            <img src={ups} alt="" className="w-56 h-full py-3 my-2 mx-0" />
+            Cyber<span className="text-red-600">Power</span> UT
+          </p>
+        </div>
+
+        <div className="product-teams my-14 mx-5 p-6 max-w-[30%] cursor-pointer border border-solid border-white rounded-xl transition duration-500 box-border hover:bg-slate-100 hover:rounded-xl hover:scale-110">
+          <p className="name font-bold text-base capitalize text-white transition duration-300 hover:text-black">
+            <img src={ups2} alt="" className="w-56 h-full py-3 my-2 mx-0" />
+            Cyber<span className="text-red-600">Power</span> VALUE
+          </p>
+        </div>
+
+        <div className="product-teams my-14 mx-5 p-6 max-w-[30%] cursor-pointer border border-solid border-white rounded-xl transition duration-500 box-border hover:bg-slate-100 hover:rounded-xl hover:scale-110">
+          <p className="name font-bold text-base capitalize text-white transition duration-300 hover:text-black">
+            <img src={ref} alt="" className="w-56 h-full py-3 my-2 mx-0" />
+            Cyber<span className="text-red-600">Power</span> OLS
+          </p>
+        </div>
+
+        <button
+          type="button"
+          className="justify-center text-white items-center block mb-3 mx-auto py-3 px-8 text-base font-bold no-underline rounded-lg bg-red-600"
+        >
+          Learn more about us
+        </button>
+      </div>
+    </div>
   );
 };
 

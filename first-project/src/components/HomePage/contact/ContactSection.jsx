@@ -118,7 +118,7 @@ const ContactPage = () => {
               <div className="btn mt-3">
                 <button
                   type="submit"
-                  className="w-full h-10 outline-none border-none bg-red-600 text-base font-medium cursor-pointer transition duration-300 text-black hover:bg-white"
+                  className="w-full h-10 outline-none border-none bg-red-600 text-base font-medium cursor-pointer transition duration-300 text-white hover:bg-white hover:text-black"
                 >
                   Send
                 </button>
