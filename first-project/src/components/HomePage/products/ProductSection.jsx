@@ -62,7 +62,7 @@ const ProductSection = () => {
           type="button"
           className="justify-center text-white items-center block mb-3 mx-auto py-3 px-8 text-base font-bold no-underline rounded-lg bg-red-600"
         >
-          Learn more about us
+          Learn more about our products
         </button>
       </div>
     </div>
