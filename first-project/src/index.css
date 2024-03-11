@@ -266,3 +266,54 @@
     padding-bottom: 30px;
   }
 }
+
+/* Contact us PAGE */
+.form {
+  grid-area: form;
+}
+
+.info {
+  grid-area: info;
+}
+
+.map {
+  grid-area: map;
+}
+
+.contact-box {
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 5fr 4fr;
+  grid-template-areas: "form info" "form map";
+}
+
+/* media query Contact PAGE*/
+@media (max-width: 991px) {
+  .contactUs {
+    padding: 20px;
+  }
+
+  .contact-box {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "form"
+      "info"
+      "map";
+  }
+
+  .map {
+    min-height: 300px;
+  }
+
+  .formBox .row50 {
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+  }
+
+  .inputBox {
+    width: 100%;
+  }
+}
