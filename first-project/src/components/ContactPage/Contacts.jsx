@@ -132,7 +132,7 @@ const Contacts = () => {
                 <span className="text-black min-w-10 h-10 bg-stone-500 flex justify-center items-center text-2xl mr-4 rounded-full">
                   <FaMapMarkerAlt />
                 </span>
-                <p className="text-red-600 text-xl">
+                <p className="text-red-600 text-base">
                   Lorem ipsum dolor, sit amet <br />
                   PH
                 </p>
@@ -142,7 +142,7 @@ const Contacts = () => {
                 <span className="text-black min-w-10 h-10 bg-stone-500 flex justify-center items-center text-2xl mr-4 rounded-full">
                   <FaEnvelope />
                 </span>
-                <a href="#" className="text-red-600 no-underline text-lg">
+                <a href="#" className="text-red-600 no-underline text-base">
                   sampleEmail@gmail.com
                 </a>
               </div>
@@ -151,7 +151,7 @@ const Contacts = () => {
                 <span className="text-black min-w-10 h-10 bg-stone-500 flex justify-center items-center text-2xl mr-4 rounded-full">
                   <FaPhoneAlt />
                 </span>
-                <a href="#" className="text-red-600 no-underline text-lg">
+                <a href="#" className="text-red-600 no-underline text-base">
                   123-123-1234
                 </a>
               </div>

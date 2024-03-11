@@ -11,7 +11,7 @@ const NewsPage = () => {
   };
 
   return (
-    <section className="news-container w-4/5 my-2 mx-auto">
+    <section className="news-container w-auto my-2 mx-20">
       <div className="news-title text-center my-12 mx-0">
         <h3 className="uppercase font-semibold text-2xl" style={red}>
           Our News & Articles

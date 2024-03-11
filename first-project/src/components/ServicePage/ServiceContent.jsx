@@ -6,8 +6,8 @@ const ServiceContent = () => {
     <div className="service-container min-h-screen w-full bg-slate-100">
       <div className="service-wrapper py-[5%] px-[8%]">
         <div className="service flex flex-col items-center">
-          <div className="service-cards grid grid-cols-3 gap-24">
-            <div className="card h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
+          <div className="service-cards grid grid-cols-3 gap-24 mt-12">
+            <div className="card h-[480px] -mt-12 w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
               <img
                 src={ref}
                 alt=""
@@ -23,7 +23,7 @@ const ServiceContent = () => {
               </p>
             </div>
 
-            <div className="card h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
+            <div className="card h-[480px] -mt-12 w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
               <img
                 src={ref}
                 alt=""
@@ -38,7 +38,7 @@ const ServiceContent = () => {
               </p>
             </div>
 
-            <div className="card h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
+            <div className="card h-[480px] -mt-12 w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
               <img
                 src={ref}
                 alt=""
