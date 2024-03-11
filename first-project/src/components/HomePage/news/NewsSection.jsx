@@ -1,11 +1,9 @@
 import React from "react";
+import { FaLongArrowAltRight, FaReadme } from "react-icons/fa";
 import meet from "../../../assets/News/news-one.jpg";
 import team from "../../../assets/News/news-two.jpg";
 import strat from "../../../assets/News/news-three.jpg";
 import plan from "../../../assets/News/news-four.jpg";
-import NewsCard from "./NewsCard";
-import comms from "../../../assets/News/comments.png";
-import likes from "../../../assets/News/like.png";
 
 const NewsPage = () => {
   const red = {
@@ -13,55 +11,85 @@ const NewsPage = () => {
   };
 
   return (
-    <section className="bg-stone-200 p-20 flex-col flex">
-      <h2
-        className="font-bold text-2xl text-center pt-32 uppercase"
-        style={red}
-      >
-        Our News & Articles
-      </h2>
-      <h2 className="font-bold text-4xl text-center mb-16 uppercase">
-        latest blog posts
-      </h2>
+    <section className="news-container w-4/5 my-2 mx-auto">
+      <div className="news-title text-center my-12 mx-0">
+        <h3 className="uppercase font-semibold text-2xl" style={red}>
+          Our News & Articles
+        </h3>
+        <h1 className="text-4xl font-bold uppercase">Latest Blog Posts</h1>
+      </div>
 
-      <div className="align_center featured_products_list justify-evenly mb-16">
-        <NewsCard
-          image={meet}
-          like={likes}
-          iconLeft={comms}
-          title="Article Title"
-          subtitle="Lorem ipsum dolor sit amet consectetur adipisicing....."
-        />
-        <NewsCard
-          image={team}
-          like={likes}
-          iconLeft={comms}
-          title="Article Title"
-          subtitle="Lorem ipsum dolor sit amet consectetur adipisicing....."
-        />
-        <NewsCard
-          image={strat}
-          like={likes}
-          iconLeft={comms}
-          title="Article Title"
-          subtitle="Lorem ipsum dolor sit amet consectetur adipisicing....."
-        />
-        <NewsCard
-          image={plan}
-          like={likes}
-          iconLeft={comms}
-          title="Article Title"
-          subtitle="Lorem ipsum dolor sit amet consectetur adipisicing....."
-        />
+      <div className="column-card flex flex-wrap justify-between">
+        <div className="news-card w-72">
+          <img src={team} alt="" className="w-full" />
+          <div className="panel p-3 rounded-xl shadow-xl">
+            <p className="text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              aperiam rerum vero, tempore fugiat perferendis sapiente cum fuga
+              aliquid asperiores.
+            </p>
+            <span className="breaker inline-block h-1 bg-red-600 w-24 relative rounded"></span>
+            <h3 className="text-lg font-bold">Article Title</h3>
+            <a href="#">
+              <FaReadme size={25} className="text-red-600" />
+            </a>
+          </div>
+        </div>
+
+        <div className="news-card w-72">
+          <img src={meet} alt="" className="w-full" />
+          <div className="panel p-3 rounded-xl shadow-xl">
+            <p className="text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              aperiam rerum vero, tempore fugiat perferendis sapiente cum fuga
+              aliquid asperiores.
+            </p>
+            <span className="breaker inline-block h-1 bg-red-600 w-24 relative rounded"></span>
+            <h3 className="text-lg font-bold">Article Title</h3>
+            <a href="#">
+              <FaReadme size={25} className="text-red-600" />
+            </a>
+          </div>
+        </div>
+
+        <div className="news-card w-72">
+          <img src={strat} alt="" className="w-full" />
+          <div className="panel p-3 rounded-xl shadow-xl">
+            <p className="text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              aperiam rerum vero, tempore fugiat perferendis sapiente cum fuga
+              aliquid asperiores.
+            </p>
+            <span className="breaker inline-block h-1 bg-red-600 w-24 relative rounded"></span>
+            <h3 className="text-lg font-bold">Article Title</h3>
+            <a href="#">
+              <FaReadme size={25} className="text-red-600" />
+            </a>
+          </div>
+        </div>
+
+        <div className="news-card w-72">
+          <img src={plan} alt="" className="w-full" />
+          <div className="panel p-3 rounded-xl shadow-xl">
+            <p className="text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              aperiam rerum vero, tempore fugiat perferendis sapiente cum fuga
+              aliquid asperiores.
+            </p>
+            <span className="breaker inline-block h-1 bg-red-600 w-24 relative rounded"></span>
+            <h3 className="text-lg font-bold">Article Title</h3>
+            <a href="#">
+              <FaReadme size={25} className="text-red-600" />
+            </a>
+          </div>
+        </div>
       </div>
-      <div className="w-64 text-center mx-auto mt-5">
-        <button
-          type="button"
-          className="text-white w-40 py-2 justify-center rounded-md bg-stone-950 font-bold"
-        >
-          Read more
-        </button>
-      </div>
+      <a
+        href="#"
+        className="allbtn block w-2/12 my-10 mx-auto bg-red-600 text-center text-white p-3 no-underline rounded-lg font-bold"
+      >
+        Read more
+      </a>
     </section>
   );
 };
