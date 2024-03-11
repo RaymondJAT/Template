@@ -1,14 +1,9 @@
 import React from "react";
 import bg from "../../../assets/partner-bg.jpg";
-import ProductCard from "./ProductCard";
 import ups from "../../../assets/Products/UPS.png";
 import ups2 from "../../../assets/Products/UPS2.png";
 import yellow from "../../../assets/Products/yellow.png";
 import ref from "../../../assets/Products/ref.png";
-import dunkin from "../../../assets/Partner/Dunkin.jpg";
-import wats from "../../../assets/Partner/watsons.jpg";
-import sevEl from "../../../assets/Partner/seveneleven.png";
-import PartnerCard from "./PartnerCard";
 
 const ProductSection = () => {
   const red = {

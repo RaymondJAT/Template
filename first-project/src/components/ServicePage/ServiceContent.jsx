@@ -53,7 +53,7 @@ const ServiceContent = () => {
               </p>
             </div>
 
-            <div className="card h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
+            <div className="card -mt-12 h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
               <img
                 src={ref}
                 alt=""
@@ -68,7 +68,7 @@ const ServiceContent = () => {
               </p>
             </div>
 
-            <div className="card h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
+            <div className="card -mt-12 h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
               <img
                 src={ref}
                 alt=""
@@ -83,7 +83,7 @@ const ServiceContent = () => {
               </p>
             </div>
 
-            <div className="card h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
+            <div className="card -mt-12 h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
               <img
                 src={ref}
                 alt=""
@@ -98,7 +98,7 @@ const ServiceContent = () => {
               </p>
             </div>
 
-            <div className="card h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
+            <div className="card -mt-12 h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
               <img
                 src={ref}
                 alt=""
@@ -114,7 +114,7 @@ const ServiceContent = () => {
               </p>
             </div>
 
-            <div className="card h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
+            <div className="card -mt-12 h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
               <img
                 src={ref}
                 alt=""
@@ -130,7 +130,7 @@ const ServiceContent = () => {
               </p>
             </div>
 
-            <div className="card h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
+            <div className="card -mt-12 h-[480px] w-80 py-[3%] px-[8%] flex items-center flex-col relative overflow-hidden border-4 border-red-600 rounded-xl">
               <img
                 src={ref}
                 alt=""

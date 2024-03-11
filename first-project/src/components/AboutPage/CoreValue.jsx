@@ -1,6 +1,10 @@
 import React from "react";
-import proactive from "../../assets/Core/proactive.jpg";
 import background from "../../assets/hero-banner.jpg";
+import proactive from "../../assets/cores/proactive.png";
+import integrity from "../../assets/cores/Integrity.png";
+import excellence from "../../assets/cores/Excellence.png";
+import teamwork from "../../assets/cores/Teamwork.png";
+import efficiency from "../../assets/cores/Efficiency.png";
 
 const CoreValue = () => {
   const styles = {
@@ -17,30 +21,33 @@ const CoreValue = () => {
         <h1 className="text-4xl text-white font-bold text-center justify-center pb-8">
           Our Core Value
         </h1>
-        {/* proactive */}
+
+        {/* excellence */}
         <div className="core-container left-container left-0">
           <img
-            src={proactive}
+            src={excellence}
             alt="core value"
-            className="absolute w-56 rounded-[30%] -right-96 top-8 z-10 border-4 border-solid border-slate-200"
+            className="absolute w-56 -right-96 -top-1 z-10"
           />
           <div className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600">
-            <h2 className="font-semibold text-2xl">Proactive</h2>
+            <h2 className="font-semibold text-2xl">Excellence</h2>
             <p>
-              Working together to identify potential problems and opportunities,
-              and take action to address them before they become major issues.
-              Members taking the initiative to identify and address problems,
-              rather than simply reacting to them after they have occurred.
+              Each member brings their unique strengths and expertise to the
+              table, and is able to work effectively with other members to
+              create a high-performing unit. The team is characterized by a
+              shared sense of purpose and a commitment to working together
+              towards a common goal.
             </p>
             <span className="left-container-arrow h-0 w-0 absolute top-7 z-10 -right-4"></span>
           </div>
         </div>
+
         {/* integrity */}
         <div className="core-container right-container left-1/2">
           <img
-            src={proactive}
+            src={integrity}
             alt="core value"
-            className="absolute w-56 rounded-[30%] -right-5 top-8 z-10 -left-96 border-4 border-solid border-slate-200"
+            className="absolute w-56 -right-5 top-1 z-10 -left-96"
           />
           <div className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600">
             <h2 className="font-semibold text-2xl">Integrity</h2>
@@ -54,12 +61,13 @@ const CoreValue = () => {
             <span className="right-container-arrow h-0 w-0 absolute top-7 z-10 -left-4"></span>
           </div>
         </div>
+
         {/* efficiency */}
         <div className="core-container left-container left-0">
           <img
-            src={proactive}
+            src={efficiency}
             alt="core value"
-            className="absolute w-56 rounded-[30%] -right-96 top-8 z-10 border-4 border-solid border-slate-200"
+            className="absolute w-56 -right-96 top-1 z-10"
           />
           <div className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600">
             <h2 className="font-semibold text-2xl">Efficiency</h2>
@@ -72,12 +80,13 @@ const CoreValue = () => {
             <span className="left-container-arrow h-0 w-0 absolute top-7 z-10 -right-4"></span>
           </div>
         </div>
+
         {/* teamwork */}
         <div className="core-container right-container left-1/2">
           <img
-            src={proactive}
+            src={teamwork}
             alt="core value"
-            className="absolute w-56 rounded-[30%] -right-5 top-8 z-10 -left-96 border-4 border-solid border-slate-200"
+            className="absolute w-56 -right-5 top-1 z-10 -left-96"
           />
           <div className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600">
             <h2 className="font-semibold text-2xl">Teamwork</h2>
@@ -90,21 +99,21 @@ const CoreValue = () => {
             <span className="right-container-arrow h-0 w-0 absolute top-7 z-10 -left-4"></span>
           </div>
         </div>
-        {/* excellence */}
+
+        {/* proactive */}
         <div className="core-container left-container left-0">
           <img
             src={proactive}
             alt="core value"
-            className="absolute w-56 rounded-[30%] -right-96 top-8 z-10 border-4 border-solid border-slate-200"
+            className="absolute w-56 -right-96 top-1 z-10"
           />
           <div className="text-box py-5 px-8 bg-white relative rounded-md text-base border-4 border-red-600">
-            <h2 className="font-semibold text-2xl">Excellence</h2>
+            <h2 className="font-semibold text-2xl">Proactive</h2>
             <p>
-              Each member brings their unique strengths and expertise to the
-              table, and is able to work effectively with other members to
-              create a high-performing unit. The team is characterized by a
-              shared sense of purpose and a commitment to working together
-              towards a common goal.
+              Working together to identify potential problems and opportunities,
+              and take action to address them before they become major issues.
+              Members taking the initiative to identify and address problems,
+              rather than simply reacting to them after they have occurred.
             </p>
             <span className="left-container-arrow h-0 w-0 absolute top-7 z-10 -right-4"></span>
           </div>

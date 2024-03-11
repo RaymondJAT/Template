@@ -6,6 +6,7 @@ import ProductSection from "../products/ProductSection";
 import NewsPage from "./../news/NewsSection";
 import ContactPage from "../contact/ContactSection";
 import hero from "../../../assets/5L/hero.jpg";
+import PartnerCard from "../products/PartnerCard";
 
 const HomePage = () => {
   const styles = {
@@ -32,6 +33,7 @@ const HomePage = () => {
       <ServiceSection />
       <ProductSection />
       <NewsPage />
+      <PartnerCard />
       <ContactPage />
     </section>
   );
