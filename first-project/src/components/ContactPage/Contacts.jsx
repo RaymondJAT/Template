@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.cjs";
 import hero from "../../assets/5L/hero.jpg";
 import {
   FaFacebookSquare,
@@ -20,13 +22,13 @@ const Contacts = () => {
     backgroundAttachment: "fixed",
   };
 
-  const red = {
-    background: "#FF0000",
-  };
-
   const bg = {
     background: "#E7E5E4",
   };
+
+  useEffect(() => {
+    AOS.init();
+  });
 
   return (
     <section className="" style={bg}>
@@ -34,16 +36,26 @@ const Contacts = () => {
         className="header w-full px-4 md:px-8 lg:px-16 xl:px-20 pt-48 pb-16"
         style={styles}
       >
-        <h1 className="text-stone-200 text-7xl font-bold capitalize">
+        <h1
+          className="text-stone-200 text-7xl font-bold capitalize"
+          data-aos="fade-right"
+          data-aos-duration="400"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="200"
+        >
           get in touch
         </h1>
       </div>
 
-      <div className="contactUs relative w-full py-10 px-24" style={bg}>
-        {/* <div className="contact-title flex justify-center items-center text-3xl">
-          <h2 className="text-black font-bold uppercase pb-10">Contact Us</h2>
-        </div> */}
-
+      <div
+        className="contactUs relative w-full py-10 px-24"
+        style={bg}
+        data-aos="zoom-in"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-once="true"
+        data-aos-delay="200"
+      >
         <div className="contact-box relative grid gap-5 my-10 mx-0">
           <div className="contact form p-10 bg-stone-100 shadow-xl border-[2px] border-solid border-red-600">
             <h3 className="font-bold text-xl">Send a Message</h3>
