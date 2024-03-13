@@ -6,7 +6,7 @@ import ProductSection from "../products/ProductSection";
 import NewsPage from "./../news/NewsSection";
 import ContactPage from "../contact/ContactSection";
 import hero from "../../../assets/5L/hero.jpg";
-import PartnerCard from "../products/PartnerCard";
+import PartnerCard from "./../partners/PartnerCard";
 
 const HomePage = () => {
   const styles = {

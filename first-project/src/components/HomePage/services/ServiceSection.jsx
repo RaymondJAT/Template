@@ -22,6 +22,11 @@ const ServiceSection = () => {
                 src={it}
                 alt=""
                 className="w-full h-full object-cover select-none transition duration-300 hover:scale-105 border-[2px] border-solid rounded-xl border-stone-200"
+                data-aos="fade"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-out"
+                data-aos-once="true"
+                data-aos-delay="100"
               />
             </div>
 
@@ -30,6 +35,11 @@ const ServiceSection = () => {
                 src={phone}
                 alt=""
                 className="w-full h-full object-cover select-none transition duration-300 hover:scale-105 border-[2px] border-solid rounded-xl border-stone-200"
+                data-aos="fade"
+                data-aos-duration="500"
+                data-aos-easing="ease-in"
+                data-aos-once="true"
+                data-aos-delay="200"
               />
             </div>
 
@@ -38,6 +48,11 @@ const ServiceSection = () => {
                 src={cable}
                 alt=""
                 className="w-full h-full object-cover select-none transition duration-300 hover:scale-105 border-[2px] border-solid rounded-xl border-stone-200"
+                data-aos="fade"
+                data-aos-duration="500"
+                data-aos-easing="ease-in"
+                data-aos-once="true"
+                data-aos-delay="300"
               />
             </div>
 
@@ -46,13 +61,25 @@ const ServiceSection = () => {
                 src={electric}
                 alt=""
                 className="w-full h-full object-cover select-none transition duration-300 hover:scale-105 border-[2px] border-solid rounded-xl border-stone-200"
+                data-aos="fade"
+                data-aos-duration="500"
+                data-aos-easing="ease-in"
+                data-aos-once="true"
+                data-aos-delay="400"
               />
             </div>
           </div>
         </div>
 
         <div className="contentRigh w-full">
-          <div className="section-content flex flex-col items-start gap-10">
+          <div
+            className="section-content flex flex-col items-start gap-10"
+            data-aos="fade-left"
+            data-aos-duration="500"
+            data-aos-easing="ease-in"
+            data-aos-once="true"
+            data-aos-delay="100"
+          >
             {/* <h4 className="text-base font-semibold text-white">Lorem ipsum</h4> */}
             <h2 className="text-3xl text-black font-semibold">
               <span className="text-white">Providing</span> High-Quality

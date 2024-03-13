@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLongArrowAltRight, FaReadme } from "react-icons/fa";
+import { FaReadme } from "react-icons/fa";
 import meet from "../../../assets/News/news-one.jpg";
 import team from "../../../assets/News/news-two.jpg";
 import strat from "../../../assets/News/news-three.jpg";
@@ -12,7 +12,14 @@ const NewsPage = () => {
 
   return (
     <section className="news-container w-auto my-2 mx-20">
-      <div className="news-title text-center my-12 mx-0">
+      <div
+        className="news-title text-center my-12 mx-0"
+        data-aos="zoom-in"
+        data-aos-duration="300"
+        data-aos-easing="ease-in"
+        data-aos-once="true"
+        data-aos-delay="300"
+      >
         <h3 className="uppercase font-semibold text-2xl" style={red}>
           Our News & Articles
         </h3>
@@ -21,8 +28,15 @@ const NewsPage = () => {
 
       <div className="column-card flex flex-wrap justify-between">
         <div className="news-card w-72 transition duration-300 hover:scale-105">
-          <img src={team} alt="" className="w-full" />
-          <div className="panel p-3 rounded-xl shadow-xl">
+          <div
+            className="panel p-3 rounded-xl shadow-xl"
+            data-aos="zoom-in-up"
+            data-aos-duration="400"
+            data-aos-easing="ease-in"
+            data-aos-once="true"
+            data-aos-delay="300"
+          >
+            <img src={team} alt="" className="w-full p-2" />
             <p className="text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At
               aperiam rerum vero, tempore fugiat perferendis sapiente cum fuga
@@ -37,8 +51,15 @@ const NewsPage = () => {
         </div>
 
         <div className="news-card w-72 transition duration-300 hover:scale-105">
-          <img src={meet} alt="" className="w-full" />
-          <div className="panel p-3 rounded-xl shadow-xl">
+          <div
+            className="panel p-3 rounded-xl shadow-xl"
+            data-aos="zoom-in-up"
+            data-aos-duration="400"
+            data-aos-easing="ease-in"
+            data-aos-once="true"
+            data-aos-delay="300"
+          >
+            <img src={meet} alt="" className="w-full p-2" />
             <p className="text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At
               aperiam rerum vero, tempore fugiat perferendis sapiente cum fuga
@@ -53,8 +74,15 @@ const NewsPage = () => {
         </div>
 
         <div className="news-card w-72 transition duration-300 hover:scale-105">
-          <img src={strat} alt="" className="w-full" />
-          <div className="panel p-3 rounded-xl shadow-xl">
+          <div
+            className="panel p-3 rounded-xl shadow-xl"
+            data-aos="zoom-in-up"
+            data-aos-duration="400"
+            data-aos-easing="ease-in"
+            data-aos-once="true"
+            data-aos-delay="300"
+          >
+            <img src={strat} alt="" className="w-full p-2" />
             <p className="text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At
               aperiam rerum vero, tempore fugiat perferendis sapiente cum fuga
@@ -69,8 +97,15 @@ const NewsPage = () => {
         </div>
 
         <div className="news-card w-72 transition duration-300 hover:scale-105">
-          <img src={plan} alt="" className="w-full" />
-          <div className="panel p-3 rounded-xl shadow-xl">
+          <div
+            className="panel p-3 rounded-xl shadow-xl"
+            data-aos="zoom-in-up"
+            data-aos-duration="400"
+            data-aos-easing="ease-in"
+            data-aos-once="true"
+            data-aos-delay="300"
+          >
+            <img src={plan} alt="" className="w-full p-2" />
             <p className="text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At
               aperiam rerum vero, tempore fugiat perferendis sapiente cum fuga
@@ -87,6 +122,11 @@ const NewsPage = () => {
       <a
         href="#"
         className="allbtn block w-2/12 my-10 mx-auto bg-black text-center text-white p-3 no-underline rounded-lg font-bold"
+        data-aos="zoom-in"
+        data-aos-duration="300"
+        data-aos-easing="ease-in"
+        data-aos-once="true"
+        data-aos-delay="300"
       >
         Read more
       </a>

@@ -16,11 +16,27 @@ const PartnerCard = () => {
   return (
     <div className="product-container text-center" style={styles}>
       <div className="product-header pt-9 text-4xl m-auto leading-10">
-        <h1 className="font-bold uppercase text-white">Our Partners</h1>
+        <h1
+          className="font-bold uppercase text-white"
+          data-aos="fade"
+          data-aos-duration="300"
+          data-aos-easing="ease-in"
+          data-aos-once="true"
+          data-aos-delay="500"
+        >
+          Our Partners
+        </h1>
       </div>
       <div className="subproduct-container max-w-[90%] m-auto pb-5 px-0 flex flex-wrap justify-center">
         <div className="service-cards grid grid-cols-3 gap-24 my-10 mx-24">
-          <div className="card h-auto w-[auto] py-[3%] px-[3%] flex items-center flex-col relative overflow-hidden border border-red-600 rounded-xl">
+          <div
+            className="card h-auto w-[auto] py-[3%] px-[3%] flex items-center flex-col relative overflow-hidden border border-red-600 rounded-xl"
+            data-aos="flip-right"
+            data-aos-duration="300"
+            data-aos-easing="ease-in"
+            data-aos-once="true"
+            data-aos-delay="500"
+          >
             <img
               src={ref}
               alt=""
@@ -28,7 +44,14 @@ const PartnerCard = () => {
             />
           </div>
 
-          <div className="card h-auto w-auto py-[3%] px-[3%] flex items-center flex-col relative overflow-hidden border border-red-600 rounded-xl">
+          <div
+            className="card h-auto w-auto py-[3%] px-[3%] flex items-center flex-col relative overflow-hidden border border-red-600 rounded-xl"
+            data-aos="flip-right"
+            data-aos-duration="300"
+            data-aos-easing="ease-in"
+            data-aos-once="true"
+            data-aos-delay="500"
+          >
             <img
               src={wats}
               alt=""
@@ -36,7 +59,14 @@ const PartnerCard = () => {
             />
           </div>
 
-          <div className="card h-auto w-auto py-[3%] px-[3%] flex items-center flex-col relative overflow-hidden border border-red-600 rounded-xl">
+          <div
+            className="card h-auto w-auto py-[3%] px-[3%] flex items-center flex-col relative overflow-hidden border border-red-600 rounded-xl"
+            data-aos="flip-right"
+            data-aos-duration="300"
+            data-aos-easing="ease-in"
+            data-aos-once="true"
+            data-aos-delay="500"
+          >
             <img
               src={seveleven}
               alt=""
