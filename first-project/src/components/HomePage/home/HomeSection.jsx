@@ -10,7 +10,7 @@ const HomeSection = ({ title, title1, subtitle, subtitle1, link }) => {
       <div className="align_center flex-col justify-center ">
         <h1
           id="hero_title"
-          className="text-4xl md:text-5xl md:font-medium mt-56 lg:text-6xl lg:font-medium xl:text-7xl xl:font-medium text-white text-center font-bold uppercase tracking-wide"
+          className="text-4xl md:text-5xl md:font-medium mt-56 lg:text-6xl lg:font-medium xl:text-7xl xl:font-medium text-white text-center font-bold tracking-wide"
         >
           {title}
           <br />

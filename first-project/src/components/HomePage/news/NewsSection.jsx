@@ -20,7 +20,7 @@ const NewsPage = () => {
       </div>
 
       <div className="column-card flex flex-wrap justify-between">
-        <div className="news-card w-72">
+        <div className="news-card w-72 transition duration-300 hover:scale-105">
           <img src={team} alt="" className="w-full" />
           <div className="panel p-3 rounded-xl shadow-xl">
             <p className="text-sm">
@@ -36,7 +36,7 @@ const NewsPage = () => {
           </div>
         </div>
 
-        <div className="news-card w-72">
+        <div className="news-card w-72 transition duration-300 hover:scale-105">
           <img src={meet} alt="" className="w-full" />
           <div className="panel p-3 rounded-xl shadow-xl">
             <p className="text-sm">
@@ -52,7 +52,7 @@ const NewsPage = () => {
           </div>
         </div>
 
-        <div className="news-card w-72">
+        <div className="news-card w-72 transition duration-300 hover:scale-105">
           <img src={strat} alt="" className="w-full" />
           <div className="panel p-3 rounded-xl shadow-xl">
             <p className="text-sm">
@@ -68,7 +68,7 @@ const NewsPage = () => {
           </div>
         </div>
 
-        <div className="news-card w-72">
+        <div className="news-card w-72 transition duration-300 hover:scale-105">
           <img src={plan} alt="" className="w-full" />
           <div className="panel p-3 rounded-xl shadow-xl">
             <p className="text-sm">

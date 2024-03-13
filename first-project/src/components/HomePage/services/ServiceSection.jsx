@@ -21,7 +21,7 @@ const ServiceSection = () => {
               <img
                 src={it}
                 alt=""
-                className="w-full h-full object-cover select-none transition duration-300 hover:scale-105"
+                className="w-full h-full object-cover select-none transition duration-300 hover:scale-105 border-[2px] border-solid rounded-xl border-stone-200"
               />
             </div>
 
@@ -29,7 +29,7 @@ const ServiceSection = () => {
               <img
                 src={phone}
                 alt=""
-                className="w-full h-full object-cover select-none transition duration-300 hover:scale-105"
+                className="w-full h-full object-cover select-none transition duration-300 hover:scale-105 border-[2px] border-solid rounded-xl border-stone-200"
               />
             </div>
 
@@ -37,7 +37,7 @@ const ServiceSection = () => {
               <img
                 src={cable}
                 alt=""
-                className="w-full h-full object-cover select-none transition duration-300 hover:scale-105"
+                className="w-full h-full object-cover select-none transition duration-300 hover:scale-105 border-[2px] border-solid rounded-xl border-stone-200"
               />
             </div>
 
@@ -45,7 +45,7 @@ const ServiceSection = () => {
               <img
                 src={electric}
                 alt=""
-                className="w-full h-full object-cover select-none transition duration-300 hover:scale-105"
+                className="w-full h-full object-cover select-none transition duration-300 hover:scale-105 border-[2px] border-solid rounded-xl border-stone-200"
               />
             </div>
           </div>
