@@ -48,7 +48,7 @@ const AboutSection = () => {
           <img
             src={ceo}
             alt="mr. bagapuro"
-            className="max-w-full h-[500px] w-[500px] rounded-2xl border-8 border-red-600"
+            className="max-w-full h-[500px] w-[500px] rounded-2xl border-[2px] border-red-600"
           />
         </div>
         {/* Skew*/}

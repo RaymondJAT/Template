@@ -29,7 +29,7 @@ const News = () => {
         </h1>
       </div>
 
-      <div className="news-row m-8 w-4/5 max-w-[1170px] grid border-4 border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8">
+      <div className="news-row m-8 w-4/5 max-w-[1170px] grid border-[2px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8">
         <div className="news-imgWrapper overflow-hidden">
           <img
             src={news}
@@ -59,7 +59,7 @@ const News = () => {
         </div>
       </div>
 
-      <div className="news-row m-8 w-4/5 max-w-[1170px] grid border-4 border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8">
+      <div className="news-row m-8 w-4/5 max-w-[1170px] grid border-[2px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8">
         <div className="news-imgWrapper overflow-hidden">
           <img
             src={news2}
@@ -89,7 +89,7 @@ const News = () => {
         </div>
       </div>
 
-      <div className="news-row m-8 w-4/5 max-w-[1170px] grid border-4 border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8">
+      <div className="news-row m-8 w-4/5 max-w-[1170px] grid border-[2px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8">
         <div className="news-imgWrapper overflow-hidden">
           <img
             src={news3}
