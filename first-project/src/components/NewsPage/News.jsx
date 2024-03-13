@@ -41,7 +41,7 @@ const News = () => {
         <div className="newsContentWrapper w-full flex justify-center items-center pl-8">
           <div className="news-content">
             <span className="newsTextWrapper text-xl capitalize flex justify-start items-center gap-4 mb-5">
-              <span className="inline-block bg-red-600 w-20 h-1"></span>New
+              <span className="inline-block bg-red-600 w-20 h-1"></span>News
               Collection
             </span>
             <h2 className="text-4xl font-bold text-red-600 pb-5">
@@ -71,7 +71,7 @@ const News = () => {
         <div className="newsContentWrapper w-full flex justify-center items-center pl-8">
           <div className="news-content">
             <span className="newsTextWrapper text-xl capitalize flex justify-start items-center gap-4 mb-5">
-              <span className="inline-block bg-red-600 w-20 h-1"></span>New
+              <span className="inline-block bg-red-600 w-20 h-1"></span>News
               Collection
             </span>
             <h2 className="text-4xl font-bold text-red-600 pb-5">
@@ -101,7 +101,7 @@ const News = () => {
         <div className="newsContentWrapper w-full flex justify-center items-center pl-8">
           <div className="news-content">
             <span className="newsTextWrapper text-xl capitalize flex justify-start items-center gap-4 mb-5">
-              <span className="inline-block bg-red-600 w-20 h-1"></span>New
+              <span className="inline-block bg-red-600 w-20 h-1"></span>News
               Collection
             </span>
             <h2 className="text-4xl font-bold text-red-600 pb-5">
