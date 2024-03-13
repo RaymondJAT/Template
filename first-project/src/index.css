@@ -357,3 +357,34 @@
     width: 50%;
   }
 }
+
+/* SERVICE SECTION */
+.contentLeft .section-row .sectionImgWrapper:nth-child(odd) {
+  transform: translateY(-20px);
+}
+
+.contentLeft .section-row .sectionImgWrapper:nth-child(even) {
+  transform: translateY(20px);
+}
+
+@media (max-width: 768px) {
+  .section-container {
+    grid-template-columns: 1fr;
+  }
+
+  .section-content .section-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contentLeft .section-row .sectionImgWrapper {
+    height: 150px;
+  }
+
+  .contentRight .ssection-content h4 {
+    font-size: 18px;
+  }
+
+  .contentRight .section-content h2 {
+    font-size: 30px;
+  }
+}

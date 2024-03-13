@@ -1,49 +1,74 @@
 import React from "react";
-import service from "../../../assets/5L/services.png";
+import it from "../../../assets/Services/ITSupport.png";
+import phone from "../../../assets/Services/Phone.png";
+import cable from "../../../assets/Services/Cabling.png";
+import electric from "../../../assets/Services/Electrical.png";
 
 const ServiceSection = () => {
-  const bg = {
-    background: "#E7E5E4",
-  };
-
   const red = {
     background: "#FF0000",
   };
 
   return (
-    <section style={red}>
-      <div className="service w-full h-screen flex justify-center items-center">
-        <div className="service-content w-[1280px] max-w-[95%] my-0 mx-auto flex flex-wrap items-center justify-around">
-          <img
-            src={service}
-            alt="services img"
-            className="h-[500px] w-[450px] rounded-xl border-8 border-stone-900 order-2 md:order-1 mb-10 md:mb-0"
-          />
-          <div className="service-text w-[550px] max-w-full py-0 px-3 order-1 md:order-2">
-            <h1 className="capitalize text-[34px] mb-5 font-bold">
-              <span className="text-white">Providing</span> high-quality
-              services
-            </h1>
-            <p className="tracking-wide text-lg leading-7 mb-11">
-              <ul className="text-white font-semibold py-5 ">
-                <li className="py-2">Electrical Design and Installation</li>
-                <li className="py-2">
-                  Installation and Repair of Surveillance Systems/CCTV
-                </li>
-                <li className="py-2">
-                  Structured Cabling Design and Installation
-                </li>
-                <li className="py-2">RFID System Design and Installation</li>
-                <li className="py-2">PABX Design and Installation</li>
-              </ul>
+    <section
+      className="w-full max-h-screen grid place-items-center"
+      style={red}
+    >
+      <div className="section-container w-11/12 h-full max-w-6xl grid grid-cols-2 items-center gap-16 py-9 px-0">
+        <div className="contentLeft w-full">
+          <div className="section-row w-full grid grid-cols-4 gap-3">
+            <div className="sectionImgWrapper w-full h-[450px] overflow-hidden rounded-xl cursor-pointer shadow-lg">
+              <img
+                src={it}
+                alt=""
+                className="w-full h-full object-cover select-none transition duration-300 hover:scale-105"
+              />
+            </div>
+
+            <div className="sectionImgWrapper w-full h-[450px] overflow-hidden rounded-xl cursor-pointer shadow-lg">
+              <img
+                src={phone}
+                alt=""
+                className="w-full h-full object-cover select-none transition duration-300 hover:scale-105"
+              />
+            </div>
+
+            <div className="sectionImgWrapper w-full h-[450px] overflow-hidden rounded-xl cursor-pointer shadow-lg">
+              <img
+                src={cable}
+                alt=""
+                className="w-full h-full object-cover select-none transition duration-300 hover:scale-105"
+              />
+            </div>
+
+            <div className="sectionImgWrapper w-full h-[450px] overflow-hidden rounded-xl cursor-pointer shadow-lg">
+              <img
+                src={electric}
+                alt=""
+                className="w-full h-full object-cover select-none transition duration-300 hover:scale-105"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="contentRight w-full">
+          <div className="section-content flex flex-col items-start gap-4">
+            <h4 className="text-base font-semibold text-white">Lorem ipsum</h4>
+            <h2 className="text-4xl text-black font-semibold">
+              Lorem ipsum dolor
+            </h2>
+            <p className="text-black text-base leading-7 pb-3">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              accusamus dolorum laudantium cumque architecto, aut obcaecati
+              minima rem quod illum vel ratione! Maxime possimus aut et ducimus
+              placeat, aliquid porro.
             </p>
-            <button
-              type="button"
-              className="font-bold no-underline py-3 px-8 text-base block my-0 mx-auto rounded-lg"
-              style={bg}
+            <a
+              href="#"
+              className="text-base inline-block no-underline tracking-normal py-3 px-8 text-black rounded-lg select-none bg-slate-200"
             >
-              Find out more about our services
-            </button>
+              Click Me
+            </a>
           </div>
         </div>
       </div>
