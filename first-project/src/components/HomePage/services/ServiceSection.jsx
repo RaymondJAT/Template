@@ -1,8 +1,8 @@
 import React from "react";
-import it from "../../../assets/Services/ITSupport.png";
-import phone from "../../../assets/Services/Phone.png";
-import cable from "../../../assets/Services/Cabling.png";
-import electric from "../../../assets/Services/Electrical.png";
+import it from "../../../assets/services/ITSupport.png";
+import phone from "../../../assets/services/Phone.png";
+import cable from "../../../assets/services/Cabling.png";
+import electric from "../../../assets/services/Electrical.png";
 
 const ServiceSection = () => {
   const red = {
