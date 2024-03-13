@@ -1,5 +1,4 @@
 import React from "react";
-import ContactPage from "../HomePage/contact/ContactSection";
 import profile from "../../assets/profile1.svg";
 
 const Team = () => {

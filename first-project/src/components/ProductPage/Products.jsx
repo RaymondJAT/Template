@@ -30,7 +30,6 @@ const Products = () => {
       </div>
 
       <ProductsContent />
-      {/* <Team /> */}
       <ContactPage />
     </section>
   );
