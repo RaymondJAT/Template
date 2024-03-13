@@ -86,7 +86,7 @@ const NewsPage = () => {
       </div>
       <a
         href="#"
-        className="allbtn block w-2/12 my-10 mx-auto bg-red-600 text-center text-white p-3 no-underline rounded-lg font-bold"
+        className="allbtn block w-2/12 my-10 mx-auto bg-black text-center text-white p-3 no-underline rounded-lg font-bold"
       >
         Read more
       </a>

@@ -21,7 +21,7 @@ const AboutSection = () => {
             <h1 className="capitalize font-bold text-2xl mb-1" style={red}>
               Company Profile
             </h1>
-            <h5 className=" text-4xl uppercase tracking-wider mb-5 font-bold">
+            <h5 className=" text-3xl uppercase tracking-wider mb-5 font-bold">
               5l solutions supply & <br />
               allied service corp.
             </h5>
