@@ -7,6 +7,7 @@ import NewsPage from "./../news/NewsSection";
 import ContactPage from "../contact/ContactSection";
 import hero from "../../../assets/5L/hero.jpg";
 import PartnerCard from "./../partners/PartnerCard";
+import Service from "../services/Service";
 
 const HomePage = () => {
   const styles = {
@@ -22,15 +23,17 @@ const HomePage = () => {
     <section>
       <div className="w-full min-h-screen pb-16" style={styles}>
         <HomeSection
-          title="UNLOCKING SOLUTIONS"
-          title1="AT ITs BEST"
+          title="unlocking"
+          title1="SOLUTIONS"
+          title2="AT ITs BEST"
           subtitle="Embark on a journey of limitless innovation and excellence with us."
           subtitle1="Explore our offerings and transform your experience."
           link="/"
         />
       </div>
       <AboutSection />
-      <ServiceSection />
+      {/* <ServiceSection /> */}
+      <Service />
       <ProductSection />
       <NewsPage />
       <PartnerCard />
