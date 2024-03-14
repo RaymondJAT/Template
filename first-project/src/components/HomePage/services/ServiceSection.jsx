@@ -22,8 +22,10 @@ const ServiceSection = ({
   return (
     <section className="w-full max-h-full grid place-items-center" style={red}>
       <div className="section-container w-11/12 h-full max-w-7xl grid grid-cols-2 items-center gap-32 py-14 px-0">
+        {/* div left */}
         <div className="contentLeft w-full">
           <div className="section-row w-full grid grid-cols-4 gap-3">
+            {/* service 1 */}
             <div className="sectionImgWrapper w-full h-[450px] overflow-hidden rounded-xl cursor-pointer shadow-lg">
               <img
                 src={img1}
@@ -37,6 +39,7 @@ const ServiceSection = ({
               />
             </div>
 
+            {/* service 2 */}
             <div className="sectionImgWrapper w-full h-[450px] overflow-hidden rounded-xl cursor-pointer shadow-lg">
               <img
                 src={img2}
@@ -50,6 +53,7 @@ const ServiceSection = ({
               />
             </div>
 
+            {/* service 3 */}
             <div className="sectionImgWrapper w-full h-[450px] overflow-hidden rounded-xl cursor-pointer shadow-lg">
               <img
                 src={img3}
@@ -63,6 +67,7 @@ const ServiceSection = ({
               />
             </div>
 
+            {/* service 4 */}
             <div className="sectionImgWrapper w-full h-[450px] overflow-hidden rounded-xl cursor-pointer shadow-lg">
               <img
                 src={img4}
@@ -78,6 +83,7 @@ const ServiceSection = ({
           </div>
         </div>
 
+        {/* div right */}
         <div className="contentRight w-full">
           <div
             className="section-content flex flex-col items-start gap-10"
@@ -99,6 +105,7 @@ const ServiceSection = ({
               <li className="text-white font-bold">{s5}</li>
             </ul>
 
+            {/* button */}
             <Link to="/services">
               <a
                 href="#"

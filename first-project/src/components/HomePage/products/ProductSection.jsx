@@ -13,6 +13,7 @@ const ProductSection = ({ img1, img2, img3, img4, header, link }) => {
 
   return (
     <div className="product-container text-center" style={styles}>
+      {/* header */}
       <div className="product-header pt-14 text-4xl m-auto leading-10">
         <h1
           className="font-bold uppercase text-white"
@@ -26,7 +27,9 @@ const ProductSection = ({ img1, img2, img3, img4, header, link }) => {
         </h1>
       </div>
 
+      {/* productSection div */}
       <div className="subproduct-container max-w-7xl m-auto pb-5 px-0 flex flex-wrap justify-center">
+        {/* product 1 */}
         <div
           className="product-teams my-14 mx-5 p-6 max-w-[30%] cursor-pointer border border-solid border-white rounded-xl transition duration-500 box-border hover:bg-slate-100 hover:rounded-xl hover:text-black"
           data-aos="zoom-in"
@@ -45,6 +48,7 @@ const ProductSection = ({ img1, img2, img3, img4, header, link }) => {
           </p>
         </div>
 
+        {/* product 2 */}
         <div
           className="product-teams my-14 mx-5 p-6 max-w-[30%] cursor-pointer border border-solid border-white rounded-xl transition duration-500 box-border hover:bg-slate-100 hover:rounded-xl"
           data-aos="zoom-in"
@@ -63,6 +67,7 @@ const ProductSection = ({ img1, img2, img3, img4, header, link }) => {
           </p>
         </div>
 
+        {/* product 3 */}
         <div
           className="product-teams my-14 mx-5 p-6 max-w-[30%] cursor-pointer border border-solid border-white rounded-xl transition duration-500 box-border hover:bg-slate-100 hover:rounded-xl"
           data-aos="zoom-in"
@@ -81,6 +86,7 @@ const ProductSection = ({ img1, img2, img3, img4, header, link }) => {
           </p>
         </div>
 
+        {/* product 4 */}
         <div
           className="product-teams my-14 mx-5 p-6 max-w-[30%] cursor-pointer border border-solid border-white rounded-xl transition duration-500 box-border hover:bg-slate-100 hover:rounded-xl"
           data-aos="zoom-in"
@@ -99,6 +105,7 @@ const ProductSection = ({ img1, img2, img3, img4, header, link }) => {
           </p>
         </div>
 
+        {/* button */}
         <Link to="/products">
           <button
             type="button"

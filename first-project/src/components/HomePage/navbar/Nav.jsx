@@ -65,6 +65,7 @@ const Nav = () => {
       >
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
+      {/* linking responsive */}
       <ul
         className={`absolute top-24 left-0 w-full bg-black bg-opacity-90 transition-max-height duration-500 ${
           nav ? "max-h-screen" : "max-h-0"

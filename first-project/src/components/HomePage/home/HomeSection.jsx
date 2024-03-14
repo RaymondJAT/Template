@@ -14,6 +14,7 @@ const HomeSection = ({ title, title1, title2, subtitle, subtitle1 }) => {
 
   return (
     <section id="hero_section" className="px-4 md:px-8 lg:px-16 xl:px-20">
+      {/* hero title */}
       <div className="align_center flex-col justify-center ">
         <h1
           id="hero_title"
@@ -40,6 +41,7 @@ const HomeSection = ({ title, title1, title2, subtitle, subtitle1 }) => {
           <br /> {subtitle1}
         </p>
 
+        {/* button */}
         <Link to="/contacts">
           <button
             type="button"
