@@ -25,16 +25,18 @@ const Services = () => {
         style={styles}
       >
         <h1
-          className="text-stone-200 text-7xl font-bold capitalize"
+          className="text-stone-200 text-5xl font-bold uppercase"
           data-aos="fade-right"
           data-aos-duration="400"
           data-aos-easing="ease-in-out"
           data-aos-delay="250"
         >
-          Our Services
+          Services
         </h1>
       </div>
       <ServiceContent />
+
+      {/* footer */}
       <ContactSection />
     </section>
   );

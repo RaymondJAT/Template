@@ -26,12 +26,13 @@ const News = () => {
 
   return (
     <section className="w-full min-h-screen grid place-items-center" style={bg}>
+      {/* header */}
       <div
         className="header w-full px-4 md:px-8 lg:px-16 xl:px-20 pt-48 pb-16"
         style={styles}
       >
         <h1
-          className="text-stone-200 text-7xl font-bold capitalize"
+          className="text-stone-200 text-5xl font-bold uppercase"
           data-aos="fade-right"
           data-aos-duration="400"
           data-aos-easing="ease-in-out"
@@ -41,6 +42,7 @@ const News = () => {
         </h1>
       </div>
 
+      {/* news 1 */}
       <div
         className="news-row m-8 w-4/5 max-w-[1170px] grid border-[2px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8"
         data-aos="zoom-in"
@@ -78,6 +80,7 @@ const News = () => {
         </div>
       </div>
 
+      {/* news 2 */}
       <div
         className="news-row m-8 w-4/5 max-w-[1170px] grid border-[2px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8"
         data-aos="zoom-in"
@@ -115,6 +118,7 @@ const News = () => {
         </div>
       </div>
 
+      {/* news 3 */}
       <div
         className="news-row m-8 w-4/5 max-w-[1170px] grid border-[2px] border-solid border-black grid-cols-2 gap-12 overflow-x-hidden p-8"
         data-aos="zoom-in"
@@ -152,6 +156,7 @@ const News = () => {
         </div>
       </div>
 
+      {/* footer */}
       <ContactPage />
     </section>
   );

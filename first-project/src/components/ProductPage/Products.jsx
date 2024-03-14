@@ -29,16 +29,18 @@ const Products = () => {
         style={styles}
       >
         <h1
-          className="text-stone-200 text-7xl font-bold capitalize"
+          className="text-stone-200 text-5xl font-bold uppercase"
           data-aos="fade-right"
           data-aos-duration="400"
           data-aos-easing="ease-in-out"
           data-aos-delay="200"
         >
-          our products
+          products
         </h1>
       </div>
       <ProductsContent />
+
+      {/* footer */}
       <ContactPage />
     </section>
   );

@@ -35,6 +35,8 @@ const HomePage = () => {
       <ProductCard />
       <NewsPage />
       <PartnerCard />
+
+      {/* footer */}
       <ContactPage />
     </section>
   );

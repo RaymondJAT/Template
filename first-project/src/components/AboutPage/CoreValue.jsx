@@ -17,6 +17,7 @@ const CoreValue = () => {
   };
   return (
     <section className=" py-10" style={styles}>
+      {/* core div */}
       <div className="timeline relative max-w-[1250px] my-0 mx-auto ">
         <h1
           className="text-4xl text-white font-bold text-center justify-center pb-8"

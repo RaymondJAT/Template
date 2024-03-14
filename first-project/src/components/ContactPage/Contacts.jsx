@@ -32,12 +32,13 @@ const Contacts = () => {
 
   return (
     <section className="" style={bg}>
+      {/* header */}
       <div
         className="header w-full px-4 md:px-8 lg:px-16 xl:px-20 pt-48 pb-16"
         style={styles}
       >
         <h1
-          className="text-stone-200 text-7xl font-bold capitalize"
+          className="text-stone-200 text-5xl font-bold uppercase"
           data-aos="fade-right"
           data-aos-duration="400"
           data-aos-easing="ease-in-out"
@@ -47,6 +48,7 @@ const Contacts = () => {
         </h1>
       </div>
 
+      {/* Contact Box */}
       <div
         className="contactUs relative w-full py-10 px-24"
         style={bg}
@@ -133,6 +135,7 @@ const Contacts = () => {
             </form>
           </div>
 
+          {/* Contact Info */}
           <div className="contact info bg-stone-100 p-10 shadow-xl border-[2px] border-solid border-red-600">
             <h3 className="font-bold text-xl">Contact Info</h3>
             <div className="infoBox">
@@ -201,6 +204,7 @@ const Contacts = () => {
             </div>
           </div>
 
+          {/* map */}
           <div className="contact map p-0 bg-white shadow-xl border-[2px] border-solid border-red-600">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d662.143061630113!2d121.06078397321383!3d14.338243843836217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d713f7b6e5ad%3A0xeafcedaf1c936365!2s5L%20Solutions%20Main%20Office!5e0!3m2!1sen!2sph!4v1710119281740!5m2!1sen!2sph"
@@ -212,6 +216,8 @@ const Contacts = () => {
           </div>
         </div>
       </div>
+
+      {/* footer */}
       <div className="bottom">
         <center className="bg-stone-900 p-2 text-sm whitespace-nowrap">
           <span className="credit text-stone-500 inline-block">
