@@ -10,10 +10,7 @@ const ServiceSection = () => {
   };
 
   return (
-    <section
-      className="w-full max-h-screen grid place-items-center"
-      style={red}
-    >
+    <section className="w-full max-h-full grid place-items-center" style={red}>
       <div className="section-container w-11/12 h-full max-w-7xl grid grid-cols-2 items-center gap-32 py-14 px-0">
         <div className="contentLeft w-full">
           <div className="section-row w-full grid grid-cols-4 gap-3">
@@ -71,7 +68,7 @@ const ServiceSection = () => {
           </div>
         </div>
 
-        <div className="contentRigh w-full">
+        <div className="contentRight w-full">
           <div
             className="section-content flex flex-col items-start gap-10"
             data-aos="fade-left"
@@ -85,25 +82,25 @@ const ServiceSection = () => {
               <span className="text-white">Providing</span> High-Quality
               Services
             </h2>
-            <p className="text-black text-base leading-7 pb-3">
-              <ul className="list-disc p-4 text-lg">
-                <li className="text-white font-bold">
-                  Electrical Design and Installation
-                </li>
-                <li className="text-white font-bold py-3 px-0">
-                  Installation and Repair of Surveillance Systems/CCTV
-                </li>
-                <li className="text-white font-bold">
-                  Structured Cabling Design and Installation
-                </li>
-                <li className="text-white font-bold py-3 px-0">
-                  RFID System Design and Installation
-                </li>
-                <li className="text-white font-bold">
-                  PABX Design and Installation
-                </li>
-              </ul>
-            </p>
+
+            <ul className="list-disc p-4 text-lg text-black leading-7 pb-3">
+              <li className="text-white font-bold">
+                Electrical Design and Installation
+              </li>
+              <li className="text-white font-bold py-3 px-0">
+                Installation and Repair of Surveillance Systems/CCTV
+              </li>
+              <li className="text-white font-bold">
+                Structured Cabling Design and Installation
+              </li>
+              <li className="text-white font-bold py-3 px-0">
+                RFID System Design and Installation
+              </li>
+              <li className="text-white font-bold">
+                PABX Design and Installation
+              </li>
+            </ul>
+
             <a
               href="#"
               className="text-base font-bold inline-block no-underline tracking-normal py-3 px-8 text-black rounded-lg select-none bg-slate-200"
