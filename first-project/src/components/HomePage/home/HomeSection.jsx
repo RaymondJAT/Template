@@ -24,7 +24,7 @@ const HomeSection = ({ title, title1, title2, subtitle, subtitle1 }) => {
           data-aos-easing="ease-in-out"
           data-aos-delay="500"
         >
-          <span className="text-yellow-600 uppercase">{title}</span>
+          <span className="text-yellow-600 uppercase">{title} </span>
           {title1}
           <br />
           {title2}
