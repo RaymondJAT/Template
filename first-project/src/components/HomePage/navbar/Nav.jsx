@@ -67,7 +67,7 @@ const Nav = () => {
       </div>
       {/* linking responsive */}
       <ul
-        className={`absolute top-24 left-0 w-full bg-black bg-opacity-90 transition-max-height duration-500 ${
+        className={`absolute top-24 left-0 w-full bg-black bg-opacity-90 transition-max-height duration-300 ${
           nav ? "max-h-screen" : "max-h-0"
         } uppercase cursor-pointer text-sm py-5 text-center overflow-hidden`}
         style={{ display: nav || nav === undefined ? "block" : "none" }}
