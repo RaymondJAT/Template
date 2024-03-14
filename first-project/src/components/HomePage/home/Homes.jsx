@@ -1,13 +1,12 @@
 import React from "react";
 import HomeSection from "./HomeSection";
 import AboutSection from "../about/AboutSection";
-import ServiceSection from "../services/ServiceSection";
-import ProductSection from "../products/ProductSection";
 import NewsPage from "./../news/NewsSection";
 import ContactPage from "../contact/ContactSection";
 import hero from "../../../assets/5L/hero.jpg";
 import PartnerCard from "./../partners/PartnerCard";
 import Service from "../services/Service";
+import ProductCard from "../products/ProductCard";
 
 const HomePage = () => {
   const styles = {
@@ -32,9 +31,8 @@ const HomePage = () => {
         />
       </div>
       <AboutSection />
-      {/* <ServiceSection /> */}
       <Service />
-      <ProductSection />
+      <ProductCard />
       <NewsPage />
       <PartnerCard />
       <ContactPage />
