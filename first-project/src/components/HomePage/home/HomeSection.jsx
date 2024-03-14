@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -7,8 +7,6 @@ const HomeSection = ({ title, title1, title2, subtitle, subtitle1 }) => {
   const red = {
     background: "#FF0000",
   };
-
-  const navigate = useNavigate();
 
   useEffect(() => {
     AOS.init();
@@ -20,16 +18,19 @@ const HomeSection = ({ title, title1, title2, subtitle, subtitle1 }) => {
       <div className="align_center flex-col justify-center ">
         <h1
           id="hero_title"
-          className="text-4xl md:text-5xl md:font-medium mt-56 lg:text-6xl lg:font-medium xl:text-7xl xl:font-medium text-white text-center font-bold tracking-wide"
+          className="text-4xl md:text-5xl md:font-medium mt-56 lg:text-6xl lg:font-medium xl:text-6xl xl:font-medium text-white text-center font-medium tracking-wide"
           data-aos="fade-right"
           data-aos-duration="700"
           data-aos-easing="ease-in-out"
           data-aos-delay="500"
         >
-          <span className="text-yellow-600 uppercase">{title} </span>
-          {title1}
+          <span className="uppercase font-bold" style={{ color: "#FF0000" }}>
+            {" "}
+            {title}{" "}
+          </span>
+          <span className="font-bold text-stone-300">{title1}</span>
           <br />
-          {title2}
+          <span className="text-stone-100">{title2}</span>
         </h1>
         <p
           id="hero_subtitle"
@@ -44,21 +45,19 @@ const HomeSection = ({ title, title1, title2, subtitle, subtitle1 }) => {
         </p>
 
         {/* button */}
-
-        <button
-          type="button"
-          className="text-white w-32 md:w-40 py-2 md:py-3 px-2 md:px-4 text-center my-6 mx-auto md:mx-2.5 rounded-md font-bold uppercase bg-red-700"
-          onClick={() => {
-            navigate("/contacts");
-          }}
-          style={red}
-          data-aos="fade"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="700"
-        >
-          join us
-        </button>
+        <Link to="/contacts">
+          <button
+            type="button"
+            className="text-white w-32 md:w-40 py-2 md:py-3 px-2 md:px-4 text-center my-6 mx-auto md:mx-2.5 rounded-md font-bold uppercase bg-red-700"
+            style={red}
+            data-aos="fade"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="700"
+          >
+            join us
+          </button>
+        </Link>
       </div>
     </section>
   );
