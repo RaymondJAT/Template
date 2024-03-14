@@ -325,6 +325,10 @@
     grid-template-columns: 1fr;
   }
 
+  .section-content {
+    align-items: center;
+  }
+
   .section-content .section-row {
     grid-template-columns: repeat(2, 1fr);
   }

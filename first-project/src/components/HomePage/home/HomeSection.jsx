@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -7,6 +7,8 @@ const HomeSection = ({ title, title1, title2, subtitle, subtitle1 }) => {
   const red = {
     background: "#FF0000",
   };
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     AOS.init();
@@ -42,19 +44,21 @@ const HomeSection = ({ title, title1, title2, subtitle, subtitle1 }) => {
         </p>
 
         {/* button */}
-        <Link to="/contacts">
-          <button
-            type="button"
-            className="text-white w-32 md:w-40 py-2 md:py-3 px-2 md:px-4 text-center my-6 mx-auto md:mx-2.5 rounded-md font-bold uppercase bg-red-700"
-            style={red}
-            data-aos="fade"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-delay="700"
-          >
-            join us
-          </button>
-        </Link>
+
+        <button
+          type="button"
+          className="text-white w-32 md:w-40 py-2 md:py-3 px-2 md:px-4 text-center my-6 mx-auto md:mx-2.5 rounded-md font-bold uppercase bg-red-700"
+          onClick={() => {
+            navigate("/contacts");
+          }}
+          style={red}
+          data-aos="fade"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="700"
+        >
+          join us
+        </button>
       </div>
     </section>
   );
