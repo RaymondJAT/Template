@@ -63,16 +63,16 @@ const Nav = () => {
       </div>
 
       <ul
-        className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-10 left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-300 ease-in uppercase text-center py-0 px-6 ${
+        className={`md:flex md:items-center md:pb-0 pb-5 absolute md:static md:z-auto z-10 left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in capitalize text-center py-0 px-6 ${
           isNav ? "top-24" : "top-[-490px]"
         }`}
         style={header}
       >
         {Links.map((link) => (
-          <li className="md:ml-8 md:my-0 my-7 font-semibold text-sm py-1 px-0">
+          <li className="md:ml-8 md:my-0 my-7  text-sm py-1 px-0 z-50">
             <a
               href={link.link}
-              className="text-white hover:text-red-600 duration-500"
+              className="text-white hover:text-red-600 hover:font-bold duration-500 z-50"
             >
               {link.name}
             </a>
