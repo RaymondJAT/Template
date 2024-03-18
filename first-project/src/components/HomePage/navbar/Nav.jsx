@@ -43,7 +43,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="shadow-md w-full fixed top-0 left-0">
+    <div className="shadow-md w-full fixed top-0 left-0 z-50">
       <div
         className="md:flex items-center justify-between bg-black text-white py-7 md:px-10 px-7"
         // style={header}
@@ -57,7 +57,7 @@ const Nav = () => {
         </div>
         <div
           onClick={handleNavToggle}
-          className="block absolute right-8 top-2 md:hidden h-20 pt-7 mx-5 cursor-pointer"
+          className="text-3xl absolute right-8 top-9 cursor-pointer md:hidden"
         >
           {isNav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
