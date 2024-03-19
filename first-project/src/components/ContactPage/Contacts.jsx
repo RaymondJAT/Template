@@ -230,9 +230,7 @@ const Contacts = () => {
           <span className="fa copyright inline-block text-white">
             <FaCopyright />
           </span>
-          <span className="text-white inline-block">
-            2024 All rights reserved.
-          </span>
+          <span className="text-white inline-block">2024</span>
         </center>
       </div>
     </section>

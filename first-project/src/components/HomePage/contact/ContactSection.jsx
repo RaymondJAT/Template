@@ -55,6 +55,7 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
+
         {/* center box */}
         <div className="center box basis-1/2 py-3 px-5">
           <h2 className="text-base font-semibold uppercase">Company Address</h2>
@@ -90,6 +91,7 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
+
         {/* right box */}
         <div className="right box basis-1/2 py-3 px-5">
           <h2 className="text-base font-semibold uppercase">Contact Us</h2>
@@ -127,6 +129,7 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
+
       {/* footer */}
       <div className="bottom">
         <center className="bg-stone-900 p-2 text-sm whitespace-nowrap">
@@ -140,7 +143,7 @@ const ContactPage = () => {
           <span className="fa copyright inline-block">
             <FaCopyright />
           </span>
-          <span className="inline-block">2024 All rights reserved.</span>
+          <span className="inline-block">2024</span>
         </center>
       </div>
     </footer>

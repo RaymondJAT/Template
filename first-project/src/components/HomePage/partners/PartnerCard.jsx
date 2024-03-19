@@ -30,7 +30,7 @@ const PartnerCard = () => {
       </div>
       <div className="subproduct-container max-w-[90%] m-auto pb-5 px-0 flex flex-wrap justify-center">
         {/* partner div */}
-        <div className="service-cards grid grid-cols-3 gap-24 my-10 mx-24">
+        <div className="partner-cards grid grid-cols-3 gap-24 my-10 mx-24">
           {/* partner 1 */}
           <div
             className="card h-auto w-[auto] py-[3%] px-[3%] flex items-center flex-col relative overflow-hidden border-[3px] border-red-600 rounded-xl"
