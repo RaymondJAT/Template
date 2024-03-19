@@ -127,18 +127,16 @@ const NewsPage = () => {
       </div>
 
       {/* button */}
-      <Link to="/news">
-        <a
-          href="#"
-          className="allbtn block w-2/12 my-10 mx-auto bg-black text-center text-white p-3 no-underline rounded-lg font-bold"
-          data-aos="zoom-in"
-          data-aos-duration="300"
-          data-aos-easing="ease-in"
-          data-aos-once="true"
-          data-aos-delay="300"
-        >
-          Read more
-        </a>
+      <Link
+        to="/news"
+        className="allbtn block w-2/12 my-10 mx-auto bg-black text-center text-white p-3 no-underline rounded-lg font-bold"
+        data-aos="zoom-in"
+        data-aos-duration="300"
+        data-aos-easing="ease-in"
+        data-aos-once="true"
+        data-aos-delay="300"
+      >
+        Read more
       </Link>
     </section>
   );
